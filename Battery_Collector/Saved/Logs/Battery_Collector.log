@@ -791,3 +791,486 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.18-16.08.45:634][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000494 seconds (updated 0 objects)
 [2021.06.18-16.08.45:757][  0]LogContentStreaming: Texture pool size now 1000 MB
 [2021.06.18-16.08.46:926][  4]LogSlate: Took 0.000262 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.06.18-16.11.11:315][630]LogSlate: Took 0.007224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.06.18-16.12.26:246][953]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" -game -rocket -progress
+[2021.06.18-16.12.26:655][953]Discovering modules, targets and source code for project...
+[2021.06.18-16.12.30:884][953]Binding IntelliSense data...
+[2021.06.18-16.12.44:000][953]Binding IntelliSense data... 50%
+[2021.06.18-16.12.44:000][953]Binding IntelliSense data... 100%
+[2021.06.18-16.12.44:000][953]Writing project files...
+[2021.06.18-16.12.50:039][953]Writing project files... 100%
+[2021.06.18-16.12.50:478][953]Candidate modules for hot reload:
+[2021.06.18-16.12.50:478][953]  Battery_Collector
+[2021.06.18-16.12.50:478][953]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Battery_Collector,4050 Battery_CollectorEditor Win64 Development -Project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" "C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject"  -IgnoreJunk]
+[2021.06.18-16.14.11:298][953]CompilerResultsLog: New page: Compilation - Jun 19, 2021, 10:14:11 AM
+[2021.06.18-16.14.11:298][953]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector).
+[2021.06.18-16.14.11:298][953]CompilerResultsLog: Creating makefile for Battery_CollectorEditor (no existing makefile)
+[2021.06.18-16.14.11:298][953]CompilerResultsLog: Parsing headers for Battery_CollectorEditor
+[2021.06.18-16.14.11:298][953]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Battery_Collector.uproject" "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\Battery_CollectorEditor\Development\Battery_CollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\JIHOONKIM\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Reflection code generated for Battery_CollectorEditor in 32.6097623 seconds
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Building Battery_CollectorEditor...
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Distributing 8 actions to XGE
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: License is invalid:
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:     This build will run in standalone mode.
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: 
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: -------------------------------------------------------------------------------
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: BatteryPickUp.cpp (0:15.34 at +0:00)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: PickUp.cpp (0:01.18 at +0:15)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: BatteryPickUp.gen.cpp (0:20.93 at +0:16)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Battery_Collector.init.gen.cpp (0:02.15 at +0:37)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: PickUp.gen.cpp (0:01.67 at +0:39)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: UE4Editor-Battery_Collector-4050.lib (0:00.18 at +0:41)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-4050.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-4050.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: UE4Editor-Battery_Collector-4050.dll (0:01.31 at +0:41)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-4050.suppressed.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-4050.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Battery_CollectorEditor.target (0:00.34 at +0:42)
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: ---------------------- Done ----------------------
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: 
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: 
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: 1 build system warning(s):
+[2021.06.18-16.14.11:299][953]CompilerResultsLog:    - License is invalid
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: 
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Total time in XGE executor: 45.47 seconds
+[2021.06.18-16.14.11:299][953]CompilerResultsLog: Total execution time: 80.70 seconds
+[2021.06.18-16.14.11:300][953]LogMainFrame: MainFrame: Module compiling took 80.865 seconds
+[2021.06.18-16.14.11:401][953]LogClass: Could not find existing class BatteryPickUp in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.18-16.14.11:414][953]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.06.18-16.14.11:421][953]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-16.14.11:510][953]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0165 seconds. Added 3605 classes and 862 folders.
+[2021.06.18-16.14.11:512][953]Display: HotReload took 81.3s.
+[2021.06.18-16.14.11:519][953]Warning: HotReload operation took 81.3s.
+[2021.06.18-16.14.13:336][953]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Source/Battery_Collector/Public/BatteryPickUp.h'
+[2021.06.18-16.14.13:337][953]LogVSAccessor: Warning: Couldn't open file 'C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Source/Battery_Collector/Private/BatteryPickUp.cpp'.
+[2021.06.18-16.14.13:347][953]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.06.18-16.14.13:372][953]LogHotReload: New module detected: UE4Editor-Battery_Collector-4050.dll
+[2021.06.18-16.14.13:495][954]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-16.14.13:593][954]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0008 seconds. Added 4 classes and 3 folders.
+[2021.06.18-16.14.13:605][954]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.18-16.14.13:624][954]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0154 seconds. Added 3605 classes and 862 folders.
+[2021.06.18-16.14.13:632][954]Display: HotReload took  0.1s.
+[2021.06.18-16.18.54:456][870]Candidate modules for hot reload:
+[2021.06.18-16.18.54:456][870]  Battery_Collector
+[2021.06.18-16.18.54:456][870]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Battery_Collector,6522 Battery_CollectorEditor Win64 Development -Project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" "C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject"  -IgnoreJunk]
+[2021.06.18-16.18.54:459][870]Warning: Starting HotReload took  0.0s.
+[2021.06.18-16.19.27:326][978]CompilerResultsLog: New page: Compilation - Jun 19, 2021, 10:19:27 AM
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector).
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Parsing headers for Battery_CollectorEditor
+[2021.06.18-16.19.27:327][978]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Battery_Collector.uproject" "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\Battery_CollectorEditor\Development\Battery_CollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\JIHOONKIM\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Reflection code generated for Battery_CollectorEditor in 11.5854658 seconds
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Building Battery_CollectorEditor...
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Distributing 5 actions to XGE
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: License is invalid:
+[2021.06.18-16.19.27:327][978]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2021.06.18-16.19.27:327][978]CompilerResultsLog:     This build will run in standalone mode.
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: -------------------------------------------------------------------------------
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: BatteryPickUp.cpp (0:04.98 at +0:00)
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Error: C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source\Battery_Collector\Private\BatteryPickUp.cpp(9) : error C2143: ???? ????: ';'??(??) '}' ?տ? ?????ϴ?.
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: Error executing C:\Program Files\Epic Games\UE_4.26\Engine\Build\Windows\cl-filter\cl-filter.exe (tool returned code: 2)
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: BatteryPickUp.gen.cpp (0:11.59 at +0:05)
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: ---------------------- Done ----------------------
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 
+[2021.06.18-16.19.27:327][978]CompilerResultsLog:     Rebuild All: 0 succeeded, 1 failed, 0 skipped
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 1 build system warning(s):
+[2021.06.18-16.19.27:327][978]CompilerResultsLog:    - License is invalid
+[2021.06.18-16.19.27:327][978]CompilerResultsLog: 
+[2021.06.18-16.19.27:327][978]LogMainFrame: MainFrame: Module compiling took 32.878 seconds
+[2021.06.18-16.19.27:360][978]Warning: HotReload failed, recompile failed
+[2021.06.18-16.19.38:586][386]LogSlate: Took 0.018197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.06.18-16.19.38:612][386]LogSlate: Took 0.020583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2021.06.18-16.19.38:612][386]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'տ (U+057f)'
+[2021.06.18-16.19.38:644][386]LogSlate: Took 0.026273 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2021.06.18-16.19.44:542][727]LogSlate: Window 'Message Log' being destroyed
+[2021.06.18-16.19.44:555][727]LogSlate: Window 'Message Log' being destroyed
+[2021.06.18-16.19.54:309][858]Candidate modules for hot reload:
+[2021.06.18-16.19.54:309][858]  Battery_Collector
+[2021.06.18-16.19.54:309][858]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Battery_Collector,8765 Battery_CollectorEditor Win64 Development -Project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" "C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject"  -IgnoreJunk]
+[2021.06.18-16.19.54:311][858]Warning: Starting HotReload took  0.0s.
+[2021.06.18-16.19.55:702][923]MapCheck: New page: Map Check
+[2021.06.18-16.19.55:773][923]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.18-16.19.55:774][923]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.18-16.19.55:889][923]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=false
+[2021.06.18-16.19.55:975][923]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.18-16.19.55:975][923]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.18-16.19.55:975][923]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.18-16.19.56:032][923]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2021.06.18-16.19.56:087][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:107][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:109][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:110][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:112][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:113][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:115][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.19.56:116][923]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.18-16.20.10:959][923]TextureStreamingBuild: Display: Compiling optional shaders took 14.894 seconds.
+[2021.06.18-16.20.10:997][923]LogLevel: Display: Export Material TexCoord Scales took 0.038 seconds.
+[2021.06.18-16.20.11:000][923]TextureStreamingBuild: Display: Build Texture Streaming took 0.003 seconds.
+[2021.06.18-16.20.11:005][923]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2021.06.18-16.20.11:013][923]LogEditorBuildUtils: Build time 0:15
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: New page: Compilation - Jun 19, 2021, 10:20:11 AM
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector).
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Building Battery_CollectorEditor...
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Distributing 4 actions to XGE
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: License is invalid:
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:     This build will run in standalone mode.
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: 
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: -------------------------------------------------------------------------------
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: BatteryPickUp.cpp (0:09.43 at +0:00)
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: UE4Editor-Battery_Collector-8765.lib (0:00.12 at +0:09)
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-8765.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-8765.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: UE4Editor-Battery_Collector-8765.dll (0:00.79 at +0:09)
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-8765.suppressed.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-8765.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Battery_CollectorEditor.target (0:00.21 at +0:10)
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: ---------------------- Done ----------------------
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: 
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: 
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: 1 build system warning(s):
+[2021.06.18-16.20.11:066][924]CompilerResultsLog:    - License is invalid
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: 
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Total time in XGE executor: 10.97 seconds
+[2021.06.18-16.20.11:066][924]CompilerResultsLog: Total execution time: 12.21 seconds
+[2021.06.18-16.20.11:066][924]LogMainFrame: MainFrame: Module compiling took 16.762 seconds
+[2021.06.18-16.20.11:113][924]LogHotReload: Re-instancing BatteryPickUp after hot-reload.
+[2021.06.18-16.20.11:126][924]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.06.18-16.20.11:127][924]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-16.20.11:163][924]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0091 seconds. Added 3605 classes and 862 folders.
+[2021.06.18-16.20.11:163][924]Display: HotReload took 16.9s.
+[2021.06.18-16.20.11:164][924]LogHotReload: New module detected: UE4Editor-Battery_Collector-8765.dll
+[2021.06.18-16.20.11:267][925]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-16.20.11:330][925]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0003 seconds. Added 4 classes and 3 folders.
+[2021.06.18-16.20.11:330][925]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.06.18-16.20.11:340][925]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0076 seconds. Added 3605 classes and 862 folders.
+[2021.06.18-16.20.11:344][925]Display: HotReload took  0.1s.
+[2021.06.18-16.20.41:044][278]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2021.06.18-16.20.41:079][278]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel_Auto1AF6E1B744AF9D56B93CBB9AB55F25481.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Autosaves/Game/Map/CollectionLevel_Auto1.umap'
+[2021.06.18-16.20.41:085][278]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/CollectionLevel' took 0.047
+[2021.06.18-16.20.41:085][278]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.047
+[2021.06.18-16.20.57:381][900]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Battery_BP.Battery_BP
+[2021.06.18-16.20.58:245][900]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 126 classes and 0 folders.
+[2021.06.18-16.20.59:275][900]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2021.06.18-16.20.59:539][900]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2021.06.18-16.21.09:778][993]LogSlate: Window 'Battery_BP' being destroyed
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.Battery_BP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.SKEL_Battery_BP_C:UserConstructionScript' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.SKEL_Battery_BP_C' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.Battery_BP_C' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.Battery_BP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.Battery_BP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:068][365]LogMetaData: Removing '/Game/BluePrint/Battery_BP.Battery_BP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Battery_BP.PackageMetaData'
+[2021.06.18-16.21.16:108][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Battery_BP" FILE="../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset" SILENT=true
+[2021.06.18-16.21.16:121][365]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_BPA465AE7044F6015416A6A0800583BA0B.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset'
+[2021.06.18-16.21.16:200][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.06.18-16.21.16:227][365]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2021.06.18-16.21.16:244][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2021.06.18-16.21.16:282][365]AssetCheck: New page: Asset Save: Battery_BP
+[2021.06.18-16.21.16:282][365]LogContentValidation: Display: Validating Blueprint /Game/BluePrint/Battery_BP.Battery_BP
+[2021.06.18-16.21.28:668][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Battery_BP" FILE="../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset" SILENT=true
+[2021.06.18-16.21.28:676][600]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_BP1D0FFFF3495788F909EA649069A597FE.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset'
+[2021.06.18-16.21.28:692][600]AssetCheck: New page: Asset Save: Battery_BP
+[2021.06.18-16.21.28:693][600]LogContentValidation: Display: Validating Blueprint /Game/BluePrint/Battery_BP.Battery_BP
+[2021.06.18-16.21.29:547][651]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.21.29:547][651]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.21.30:892][727]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BluePrint/Battery_BP.Battery_BP
+[2021.06.18-16.21.55:829][369]LogTexture: Display: Building textures: T_Battery_M (AutoDXT, 512X512)
+[2021.06.18-16.21.55:830][369]LogStaticMesh: Building static mesh SM_Battery_Medium...
+[2021.06.18-16.21.55:865][369]LogStaticMesh: Built static mesh [0.04s] /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
+[2021.06.18-16.21.55:881][369]LogMaterial: Display: Missing cached shader map for material M_Battery, compiling. 
+[2021.06.18-16.22.08:967][  6]BlueprintLog: New page: Compile Battery_BP
+[2021.06.18-16.22.09:023][  6]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2021.06.18-16.22.09:552][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BluePrint/Battery_BP" FILE="../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset" SILENT=true
+[2021.06.18-16.22.09:565][ 35]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_BPD65BD17646868D2EB2947E87D81EB134.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_BP.uasset'
+[2021.06.18-16.22.09:577][ 35]AssetCheck: New page: Asset Save: Battery_BP
+[2021.06.18-16.22.09:577][ 35]LogContentValidation: Display: Validating Blueprint /Game/BluePrint/Battery_BP.Battery_BP
+[2021.06.18-16.22.53:260][ 29]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-16.22.53:277][ 29]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-16.22.53:278][ 29]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 10:22:53 AM)
+[2021.06.18-16.22.53:288][ 29]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.06.18-16.22.53:290][ 29]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.06.18-16.22.53:292][ 29]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.22.53:301][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006752s)
+[2021.06.18-16.22.53:303][ 29]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-16.22.53:303][ 29]LogPlayLevel: PIE: World Init took: (0.002694s)
+[2021.06.18-16.22.53:303][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.011225s)
+[2021.06.18-16.22.53:324][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2021.06.18-16.22.53:327][ 29]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-16.22.53:328][ 29]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-16.22.53:328][ 29]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-16.22.53:328][ 29]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-16.22.53:337][ 29]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-16.22.53:337][ 29]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-16.22.53:346][ 29]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-16.22.53:346][ 29]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-16.22.53:347][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-16.22.53:347][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-16.22.53:347][ 29]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-16.22.53:347][ 29]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-16.22.53:347][ 29]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-16.22.53:361][ 29]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-16.22.53:361][ 29]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-16.22.53:361][ 29]LogInit: FAudioDevice initialized.
+[2021.06.18-16.22.53:361][ 29]LogAudio: Display: Audio Device (ID: 2) registered with world 'CollectionLevel'.
+[2021.06.18-16.22.53:382][ 29]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-16.22.53:394][ 29]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-01.22.53
+[2021.06.18-16.22.53:396][ 29]LogWorld: Bringing up level for play took: 0.002659
+[2021.06.18-16.22.53:397][ 29]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.06.18-16.22.53:419][ 29]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2021.06.18-16.22.53:475][ 29]PIE: Server logged in
+[2021.06.18-16.22.53:479][ 29]PIE: Play in editor total start time 0.21 seconds.
+[2021.06.18-16.22.55:991][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.22.55:991][160]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.22.55:992][160]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.22.55:993][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.22.56:005][160]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-16.22.56:025][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.22.56:051][160]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.18-16.22.56:053][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.22.56:054][160]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.22.56:071][160]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.22.56:096][160]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.06.18-16.22.56:127][161]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.06.18-16.23.03:601][603]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-16.23.03:605][603]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-16.23.03:605][603]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 10:23:03 AM)
+[2021.06.18-16.23.03:606][603]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.23.03:614][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007361s)
+[2021.06.18-16.23.03:615][603]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-16.23.03:615][603]LogPlayLevel: PIE: World Init took: (0.001491s)
+[2021.06.18-16.23.03:616][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.009409s)
+[2021.06.18-16.23.03:642][603]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.06.18-16.23.03:644][603]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-16.23.03:644][603]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-16.23.03:644][603]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-16.23.03:644][603]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-16.23.03:647][603]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-16.23.03:647][603]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-16.23.03:658][603]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-16.23.03:658][603]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-16.23.03:659][603]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-16.23.03:659][603]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-16.23.03:659][603]LogInit: FAudioDevice initialized.
+[2021.06.18-16.23.03:659][603]LogAudio: Display: Audio Device (ID: 3) registered with world 'CollectionLevel'.
+[2021.06.18-16.23.03:675][603]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-16.23.03:677][603]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-01.23.03
+[2021.06.18-16.23.03:677][603]LogWorld: Bringing up level for play took: 0.000909
+[2021.06.18-16.23.03:677][603]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.06.18-16.23.03:680][603]PIE: Server logged in
+[2021.06.18-16.23.03:680][603]PIE: Play in editor total start time 0.076 seconds.
+[2021.06.18-16.23.05:037][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.23.05:037][683]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.23.05:037][683]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.23.05:037][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.23.05:043][683]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-16.23.05:057][683]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.23.05:075][683]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.18-16.23.05:076][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.23.05:077][683]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.23.05:091][683]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.23.05:095][683]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2021.06.18-16.23.05:116][684]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.06.18-16.23.40:986][565]Cmd: DELETE
+[2021.06.18-16.23.40:986][565]Cmd: ACTOR DELETE
+[2021.06.18-16.23.41:007][565]LogEditorActor: Deleted Actor: Battery_BP_C
+[2021.06.18-16.23.41:029][565]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.06.18-16.23.41:031][565]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2021.06.18-16.23.56:259][193]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
+[2021.06.18-16.23.57:681][193]LogRenderer: Reallocating scene render targets to support 1432x920 Format 10 NumSamples 1 (Frame:1).
+[2021.06.18-16.23.57:681][193]LogSlate: Took 0.008503 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.18-16.25.52:932][922]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/SM_Battery_Medium3479119240AFB036B0DF5F911EADF7C5.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.uasset'
+[2021.06.18-16.25.52:957][922]AssetCheck: New page: Asset Save: SM_Battery_Medium
+[2021.06.18-16.25.52:957][922]LogContentValidation: Display: Validating StaticMesh /Game/ExampleContent/Blueprint_Communication/Meshes/SM_Battery_Medium.SM_Battery_Medium
+[2021.06.18-16.25.54:399][987]LogSlate: Window 'SM_Battery_Medium' being destroyed
+[2021.06.18-16.25.54:425][987]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.25.54:425][987]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.06:475][ 63]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-16.26.06:480][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-16.26.06:480][ 63]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 10:26:06 AM)
+[2021.06.18-16.26.06:481][ 63]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.06:484][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003450s)
+[2021.06.18-16.26.06:487][ 63]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-16.26.06:487][ 63]LogPlayLevel: PIE: World Init took: (0.004127s)
+[2021.06.18-16.26.06:487][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.007771s)
+[2021.06.18-16.26.06:562][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2021.06.18-16.26.06:565][ 63]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-16.26.06:565][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-16.26.06:565][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-16.26.06:566][ 63]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-16.26.06:566][ 63]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-16.26.06:569][ 63]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-16.26.06:569][ 63]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-16.26.06:579][ 63]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-16.26.06:579][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-16.26.06:580][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-16.26.06:580][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-16.26.06:580][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-16.26.06:580][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-16.26.06:580][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-16.26.06:594][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-16.26.06:594][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-16.26.06:594][ 63]LogInit: FAudioDevice initialized.
+[2021.06.18-16.26.06:594][ 63]LogAudio: Display: Audio Device (ID: 4) registered with world 'CollectionLevel'.
+[2021.06.18-16.26.06:604][ 63]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-16.26.06:606][ 63]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-01.26.06
+[2021.06.18-16.26.06:606][ 63]LogWorld: Bringing up level for play took: 0.000963
+[2021.06.18-16.26.06:606][ 63]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.06.18-16.26.06:609][ 63]PIE: Server logged in
+[2021.06.18-16.26.06:609][ 63]PIE: Play in editor total start time 0.13 seconds.
+[2021.06.18-16.26.09:746][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.09:747][249]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.09:747][249]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.26.09:747][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.09:754][249]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-16.26.09:760][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.09:786][249]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.18-16.26.09:787][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.09:788][249]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.09:803][249]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.09:825][249]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.06.18-16.26.09:850][250]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.06.18-16.26.20:462][871]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-16.26.20:466][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-16.26.20:466][871]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 10:26:20 AM)
+[2021.06.18-16.26.20:467][871]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.20:473][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006892s)
+[2021.06.18-16.26.20:474][871]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-16.26.20:475][871]LogPlayLevel: PIE: World Init took: (0.001087s)
+[2021.06.18-16.26.20:475][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.008122s)
+[2021.06.18-16.26.20:498][871]LogUObjectHash: Compacting FUObjectHashTables data took   2.28ms
+[2021.06.18-16.26.20:500][871]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-16.26.20:500][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-16.26.20:500][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-16.26.20:501][871]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-16.26.20:501][871]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-16.26.20:503][871]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-16.26.20:503][871]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-16.26.20:511][871]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-16.26.20:511][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-16.26.20:511][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-16.26.20:511][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-16.26.20:512][871]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-16.26.20:512][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-16.26.20:512][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-16.26.20:525][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-16.26.20:525][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-16.26.20:525][871]LogInit: FAudioDevice initialized.
+[2021.06.18-16.26.20:525][871]LogAudio: Display: Audio Device (ID: 5) registered with world 'CollectionLevel'.
+[2021.06.18-16.26.20:535][871]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-16.26.20:537][871]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-01.26.20
+[2021.06.18-16.26.20:537][871]LogWorld: Bringing up level for play took: 0.000963
+[2021.06.18-16.26.20:538][871]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.06.18-16.26.20:540][871]PIE: Server logged in
+[2021.06.18-16.26.20:540][871]PIE: Play in editor total start time 0.075 seconds.
+[2021.06.18-16.26.22:297][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.22:297][974]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.22:297][974]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.26.22:297][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.22:302][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-16.26.22:317][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.22:336][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.18-16.26.22:337][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.22:338][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.22:352][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.22:356][974]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.06.18-16.26.22:377][975]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.06.18-16.26.33:268][ 88]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-16.26.33:275][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-16.26.33:276][ 88]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 10:26:33 AM)
+[2021.06.18-16.26.33:276][ 88]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.33:280][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003660s)
+[2021.06.18-16.26.33:281][ 88]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-16.26.33:282][ 88]LogPlayLevel: PIE: World Init took: (0.002276s)
+[2021.06.18-16.26.33:282][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.006155s)
+[2021.06.18-16.26.33:308][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.06.18-16.26.33:309][ 88]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.18-16.26.33:309][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-16.26.33:309][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-16.26.33:310][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-16.26.33:310][ 88]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-16.26.33:310][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-16.26.33:312][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-16.26.33:312][ 88]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-16.26.33:321][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-16.26.33:335][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-16.26.33:335][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-16.26.33:335][ 88]LogInit: FAudioDevice initialized.
+[2021.06.18-16.26.33:335][ 88]LogAudio: Display: Audio Device (ID: 6) registered with world 'CollectionLevel'.
+[2021.06.18-16.26.33:340][ 88]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-16.26.33:342][ 88]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-01.26.33
+[2021.06.18-16.26.33:342][ 88]LogWorld: Bringing up level for play took: 0.000912
+[2021.06.18-16.26.33:342][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.06.18-16.26.33:344][ 88]PIE: Server logged in
+[2021.06.18-16.26.33:345][ 88]PIE: Play in editor total start time 0.07 seconds.
+[2021.06.18-16.26.40:627][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.40:627][522]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-16.26.40:627][522]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-16.26.40:627][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.40:636][522]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-16.26.40:650][522]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-16.26.40:669][522]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-16.26.40:670][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.40:671][522]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-16.26.40:689][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2021.06.18-16.26.40:721][523]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2021.06.18-16.27.22:279][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2021.06.18-16.27.23:162][821]LogSlate: Window 'Save Content' being destroyed
+[2021.06.18-16.27.23:228][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2021.06.18-16.27.23:244][821]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel99F531054E20ACC33D9C74A0FBF6D84E.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/Map/CollectionLevel.umap'
+[2021.06.18-16.27.23:254][821]LogFileHelpers: Saving map 'CollectionLevel' took 0.058
+[2021.06.18-16.27.23:275][821]AssetCheck: New page: Asset Save: CollectionLevel
+[2021.06.18-16.27.23:275][821]LogContentValidation: Display: Validating World /Game/Map/CollectionLevel.CollectionLevel
