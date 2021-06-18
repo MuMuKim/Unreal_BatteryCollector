@@ -31,16 +31,15 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Inc\Battery_Collector
-/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source
+/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source\Battery_Collector\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -232,6 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
+/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Inc\Battery_Collector
+/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source
+/I C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source\Battery_Collector\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AugmentedReality
 /I Runtime\AugmentedReality\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\MRMesh

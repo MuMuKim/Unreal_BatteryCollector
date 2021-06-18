@@ -1,0 +1,30 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector).
+  Parsing headers for Battery_CollectorEditor
+    Running UnrealHeaderTool "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Battery_Collector.uproject" "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\Battery_CollectorEditor\Development\Battery_CollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\JIHOONKIM\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for Battery_CollectorEditor in 4.147173 seconds
+  Building Battery_CollectorEditor...
+  Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 5 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  PickUp.cpp (0:12.00 at +0:00)
+  PickUp.gen.cpp (0:06.15 at +0:12)
+  UE4Editor-Battery_Collector-0004.lib (0:00.23 at +0:18)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0004.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0004.exp 개체를 생성하고 있습니다.
+  UE4Editor-Battery_Collector-0004.dll (0:00.75 at +0:18)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0004.suppressed.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0004.suppressed.exp 개체를 생성하고 있습니다.
+  Battery_CollectorEditor.target (0:00.21 at +0:19)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 20.93 seconds
+  Total execution time: 25.99 seconds
