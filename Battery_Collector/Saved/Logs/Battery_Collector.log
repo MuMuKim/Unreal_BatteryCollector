@@ -1274,3 +1274,154 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.18-16.27.23:254][821]LogFileHelpers: Saving map 'CollectionLevel' took 0.058
 [2021.06.18-16.27.23:275][821]AssetCheck: New page: Asset Save: CollectionLevel
 [2021.06.18-16.27.23:275][821]LogContentValidation: Display: Validating World /Game/Map/CollectionLevel.CollectionLevel
+[2021.06.18-16.35.01:522][667]Cmd: DELETE
+[2021.06.18-16.35.01:522][667]Cmd: ACTOR DELETE
+[2021.06.18-16.35.01:524][667]LogEditorActor: Deleted Actor: Battery_BP_C
+[2021.06.18-16.35.01:526][667]LogEditorActor: Deleted Actor: PickUp_BP_C
+[2021.06.18-16.35.01:560][667]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2021.06.18-16.35.01:563][667]LogEditorActor: Deleted 2 Actors (0.040 secs)
+[2021.06.18-16.35.32:538][849]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" -game -rocket -progress
+[2021.06.18-16.35.32:944][849]Discovering modules, targets and source code for project...
+[2021.06.18-16.35.35:964][849]Binding IntelliSense data...
+[2021.06.18-16.35.44:537][849]Binding IntelliSense data... 100%
+[2021.06.18-16.35.44:537][849]Writing project files...
+[2021.06.18-16.35.51:694][849]Writing project files... 100%
+[2021.06.18-16.35.51:839][849]Candidate modules for hot reload:
+[2021.06.18-16.35.51:839][849]  Battery_Collector
+[2021.06.18-16.35.51:839][849]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Battery_Collector,777 Battery_CollectorEditor Win64 Development -Project="C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject" "C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Battery_Collector.uproject"  -IgnoreJunk]
+[2021.06.18-16.36.21:809][849]CompilerResultsLog: New page: Compilation - Jun 19, 2021, 10:36:21 AM
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector).
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Creating makefile for Battery_CollectorEditor (no existing makefile)
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Parsing headers for Battery_CollectorEditor
+[2021.06.18-16.36.21:813][849]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Battery_Collector.uproject" "C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\Battery_CollectorEditor\Development\Battery_CollectorEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\JIHOONKIM\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Reflection code generated for Battery_CollectorEditor in 5.7963156 seconds
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Building Battery_CollectorEditor...
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Using Visual Studio 2019 14.28.29914 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Distributing 6 actions to XGE
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: --------------------Build System Warning---------------------------------------
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: License is invalid:
+[2021.06.18-16.36.21:813][849]CompilerResultsLog:     License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+[2021.06.18-16.36.21:813][849]CompilerResultsLog:     This build will run in standalone mode.
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: 
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: -------------------------------------------------------------------------------
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: --------------------Project: Default-------------------------------------------
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: SpawnVolume.cpp (0:12.48 at +0:00)
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: Battery_Collector.init.gen.cpp (0:04.64 at +0:12)
+[2021.06.18-16.36.21:813][849]CompilerResultsLog: SpawnVolume.gen.cpp (0:01.71 at +0:17)
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: UE4Editor-Battery_Collector-0777.lib (0:00.11 at +0:18)
+[2021.06.18-16.36.21:814][849]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0777.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0777.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: UE4Editor-Battery_Collector-0777.dll (0:00.85 at +0:19)
+[2021.06.18-16.36.21:814][849]CompilerResultsLog:    C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0777.suppressed.lib ???̺귯?? ?? C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0777.suppressed.exp ??ü?? ?????ϰ? ?ֽ??ϴ?.
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: Battery_CollectorEditor.target (0:00.25 at +0:19)
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: ---------------------- Done ----------------------
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: 
+[2021.06.18-16.36.21:814][849]CompilerResultsLog:     Rebuild All: 1 succeeded, 0 failed, 0 skipped
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: 
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: 1 build system warning(s):
+[2021.06.18-16.36.21:814][849]CompilerResultsLog:    - License is invalid
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: 
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: Total time in XGE executor: 21.78 seconds
+[2021.06.18-16.36.21:814][849]CompilerResultsLog: Total execution time: 29.86 seconds
+[2021.06.18-16.36.21:815][849]LogMainFrame: MainFrame: Module compiling took 29.995 seconds
+[2021.06.18-16.36.21:862][849]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0204 seconds. Added 3605 classes and 862 folders.
+[2021.06.18-16.36.21:863][849]Display: HotReload took 30.1s.
+[2021.06.18-16.36.21:863][849]Warning: HotReload operation took 30.1s.
+[2021.06.18-16.36.22:208][849]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Source/Battery_Collector/Public/SpawnVolume.h'
+[2021.06.18-16.36.22:388][849]LogSlate: Window 'Add C++ Class' being destroyed
+[2021.06.18-16.36.22:777][849]LogHotReload: New module detected: UE4Editor-Battery_Collector-0777.dll
+[2021.06.18-16.36.22:824][850]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-16.36.22:919][850]LogClass: Could not find existing class SpawnVolume in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.18-16.36.22:928][850]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0002 seconds. Added 5 classes and 3 folders.
+[2021.06.18-16.36.22:933][850]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-16.36.23:059][850]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0082 seconds. Added 3606 classes and 862 folders.
+[2021.06.18-16.36.23:062][850]Display: HotReload took  0.2s.
+[2021.06.18-16.38.13:163][179]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2021.06.18-16.38.13:180][179]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel_Auto284F2D7DF45E88D0FF459AE8ED008DC56.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Autosaves/Game/Map/CollectionLevel_Auto2.umap'
+[2021.06.18-16.38.13:182][179]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/CollectionLevel' took 0.153
+[2021.06.18-16.38.13:182][179]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.153
+[2021.06.18-17.00.07:502][105]LogHotReload: New module detected: UE4Editor-Battery_Collector-0012.dll
+[2021.06.18-17.00.09:189][111]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-17.00.09:257][111]LogClass: Could not find existing class SpawnVolume in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.18-17.00.09:258][111]LogClass: Function GetRandomPointInVolume is new.
+[2021.06.18-17.00.09:289][111]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.18-17.00.09:339][111]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2021.06.18-17.00.09:345][111]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-17.00.09:573][111]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0192 seconds. Added 3606 classes and 862 folders.
+[2021.06.18-17.00.09:580][111]Display: HotReload took  0.4s.
+[2021.06.18-17.27.46:370][ 56]LogHotReload: New module detected: UE4Editor-Battery_Collector-0019.dll
+[2021.06.18-17.27.47:381][ 60]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-17.27.47:517][ 60]LogClass: Could not find existing class SpawnVolume in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.18-17.27.47:518][ 60]LogClass: Function GetRandomPointInVolume is new.
+[2021.06.18-17.27.47:550][ 60]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.18-17.27.47:586][ 60]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0010 seconds. Added 5 classes and 3 folders.
+[2021.06.18-17.27.47:592][ 60]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-17.27.47:794][ 60]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0144 seconds. Added 3606 classes and 862 folders.
+[2021.06.18-17.27.47:799][ 60]Display: HotReload took  0.4s.
+[2021.06.18-17.43.34:224][885]LogHotReload: New module detected: UE4Editor-Battery_Collector-0020.dll
+[2021.06.18-17.43.35:245][889]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.18-17.43.35:324][889]LogClass: Could not find existing class SpawnVolume in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.18-17.43.35:324][889]LogClass: Function GetRandomPointInVolume is new.
+[2021.06.18-17.43.35:353][889]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.18-17.43.35:390][889]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.06.18-17.43.35:396][889]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2021.06.18-17.43.35:614][889]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0088 seconds. Added 3606 classes and 862 folders.
+[2021.06.18-17.43.35:620][889]Display: HotReload took  0.4s.
+[2021.06.18-17.44.32:922][418]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 2600.00,-90.00,10.00
+[2021.06.18-17.44.34:040][464]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 2720.00,-50.00,10.00
+[2021.06.18-17.44.51:884][493]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2021.06.18-17.45.16:092][545]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 2550.00,-30.00,10.00
+[2021.06.18-17.45.16:656][577]LogEditor: Attempting to add actor of class 'SpawnVolume' to level at 2800.00,90.00,10.00
+[2021.06.18-17.45.51:921][233]LogUObjectHash: Compacting FUObjectHashTables data took  29.67ms
+[2021.06.18-17.45.52:028][233]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel_Auto30804EEE34F18D1961B0E6796071969C5.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Autosaves/Game/Map/CollectionLevel_Auto3.umap'
+[2021.06.18-17.45.52:044][233]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/CollectionLevel' took 1.350
+[2021.06.18-17.45.52:044][233]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.350
+[2021.06.18-17.46.17:831][394]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.18-17.46.17:874][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.18-17.46.17:890][394]PIE: New page: PIE session: CollectionLevel (Jun 19, 2021, 11:46:17 AM)
+[2021.06.18-17.46.17:901][394]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-17.46.17:966][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057461s)
+[2021.06.18-17.46.18:055][394]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.18-17.46.18:071][394]LogPlayLevel: PIE: World Init took: (0.104349s)
+[2021.06.18-17.46.18:072][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.170992s)
+[2021.06.18-17.46.18:211][394]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2021.06.18-17.46.18:224][394]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.18-17.46.18:227][394]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.18-17.46.18:228][394]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.18-17.46.18:231][394]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.18-17.46.18:231][394]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.18-17.46.18:247][394]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.18-17.46.18:247][394]LogAudioMixer: Display: 1: FrontRight
+[2021.06.18-17.46.18:262][394]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.18-17.46.18:263][394]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.18-17.46.18:263][394]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.18-17.46.18:264][394]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.18-17.46.18:266][394]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.18-17.46.18:266][394]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.18-17.46.18:266][394]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.18-17.46.18:303][394]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.18-17.46.18:303][394]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.18-17.46.18:303][394]LogInit: FAudioDevice initialized.
+[2021.06.18-17.46.18:304][394]LogAudio: Display: Audio Device (ID: 7) registered with world 'CollectionLevel'.
+[2021.06.18-17.46.18:387][394]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.18-17.46.18:421][394]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.19-02.46.18
+[2021.06.18-17.46.18:425][394]LogWorld: Bringing up level for play took: 0.025277
+[2021.06.18-17.46.18:434][394]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2021.06.18-17.46.18:571][394]PIE: Server logged in
+[2021.06.18-17.46.18:573][394]PIE: Play in editor total start time 0.719 seconds.
+[2021.06.18-17.47.05:870][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-17.47.05:870][223]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.18-17.47.05:877][223]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.18-17.47.05:881][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-17.47.05:913][223]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.18-17.47.05:932][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.18-17.47.05:956][223]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.18-17.47.05:960][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-17.47.05:961][223]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.18-17.47.06:001][223]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2021.06.18-17.47.06:040][224]LogPlayLevel: Display: Destroying online subsystem :Context_13

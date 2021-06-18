@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Battery_Collector.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0E078BAD-E34E-4624-B92D-C3A0D5E5F442}</UniqueIdentifier>
+      <UniqueIdentifier>{E7FEC018-A12B-463F-8F1D-FA99BB583A64}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Battery_Collector.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{D8A9594D-385F-4E2E-9E48-00826A41BCFE}</UniqueIdentifier>
+      <UniqueIdentifier>{37B8622B-ADB6-482B-9774-34A88B8B1DA3}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Battery_Collector">
-      <UniqueIdentifier>{BCF94FD3-FBC5-4616-A783-59AE4E27A93B}</UniqueIdentifier>
+      <UniqueIdentifier>{5BB08AB6-E4AC-4D6C-8D61-5E9EB4CF5BCE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Battery_Collector\Battery_Collector.Build.cs">
       <Filter>Source\Battery_Collector</Filter>
@@ -54,7 +54,7 @@
       <Filter>Source\Battery_Collector</Filter>
     </ClInclude>
     <Filter Include="Source\Battery_Collector\Private">
-      <UniqueIdentifier>{B90FF3EC-1BB3-4C42-BEF6-42B891E6805A}</UniqueIdentifier>
+      <UniqueIdentifier>{D4EC19A8-16B3-4BA7-9F3C-18C9C31AFE01}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Battery_Collector\Private\BatteryPickUp.cpp">
       <Filter>Source\Battery_Collector\Private</Filter>
@@ -62,13 +62,19 @@
     <ClCompile Include="..\..\Source\Battery_Collector\Private\PickUp.cpp">
       <Filter>Source\Battery_Collector\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Battery_Collector\Private\SpawnVolume.cpp">
+      <Filter>Source\Battery_Collector\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\Battery_Collector\Public">
-      <UniqueIdentifier>{34DF3891-F5C8-49E2-88A4-4942FEA6FDE4}</UniqueIdentifier>
+      <UniqueIdentifier>{9C39C26D-7162-44B8-B3AE-8F46CA6F17B6}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\Battery_Collector\Public\BatteryPickUp.h">
       <Filter>Source\Battery_Collector\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\Battery_Collector\Public\PickUp.h">
+      <Filter>Source\Battery_Collector\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Battery_Collector\Public\SpawnVolume.h">
       <Filter>Source\Battery_Collector\Public</Filter>
     </ClInclude>
   </ItemGroup>
