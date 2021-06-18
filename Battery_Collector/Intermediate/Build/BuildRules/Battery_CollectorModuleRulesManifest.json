@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\JIHOONKIM\\Documents\\unity\\Unreal_BatteryCollector\\Battery_Collector\\Source\\Battery_Collector\\Battery_Collector.Build.cs",
+		"C:\\Users\\JIHOONKIM\\Documents\\unity\\Unreal_BatteryCollector\\Battery_Collector\\Source\\Battery_Collector.Target.cs",
+		"C:\\Users\\JIHOONKIM\\Documents\\unity\\Unreal_BatteryCollector\\Battery_Collector\\Source\\Battery_CollectorEditor.Target.cs"
+	],
+	"EngineVersion": "4.26.2"
+}
