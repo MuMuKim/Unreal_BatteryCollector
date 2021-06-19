@@ -8,7 +8,8 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "GameFramework/Controller.h"
 #include "GameFramework/SpringArmComponent.h"
-
+#include <Components/SphereComponent.h>
+#include "PickUp.h"
 //////////////////////////////////////////////////////////////////////////
 // ABattery_CollectorCharacter
 
@@ -43,6 +44,11 @@ ABattery_CollectorCharacter::ABattery_CollectorCharacter()
 	FollowCamera->SetupAttachment(CameraBoom, USpringArmComponent::SocketName); // Attach the camera to the end of the boom and let the boom adjust to match the controller orientation
 	FollowCamera->bUsePawnControlRotation = false; // Camera does not rotate relative to arm
 
+	//CollectionSphere 생성
+	CollectionSphere = CreateDefaultSubobject<USphereComponent>(TEXT("CollectionSphere"));
+	CollectionSphere->AttachTo(RootComponent);
+	CollectionSphere->SetSphereRadius(200.0f); //구의 반지름을 설정
+
 	// Note: The skeletal mesh and anim blueprint references on the Mesh component (inherited from Character) 
 	// are set in the derived blueprint asset named MyCharacter (to avoid direct content references in C++)
 }
@@ -56,6 +62,9 @@ void ABattery_CollectorCharacter::SetupPlayerInputComponent(class UInputComponen
 	check(PlayerInputComponent);
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+
+	//버튼바인딩
+	InputComponent->BindAction("Collect", IE_Pressed, this, &ABattery_CollectorCharacter::CollectionPickups);
 
 	PlayerInputComponent->BindAxis("MoveForward", this, &ABattery_CollectorCharacter::MoveForward);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABattery_CollectorCharacter::MoveRight);
@@ -138,3 +147,26 @@ void ABattery_CollectorCharacter::MoveRight(float Value)
 		AddMovementInput(Direction, Value);
 	}
 }
+
+void ABattery_CollectorCharacter::CollectionPickups()
+{
+	// CollectionSphere와 오버랩된 모든 액터를 배열로 받아옴
+	TArray<AActor*> CollectedActors;
+	CollectionSphere->GetOverlappingActors(CollectedActors);
+	//Foreach문을 통해
+	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected)
+	{
+		//액터를 APicup으로 형변환
+		APickUp* const TestPickup = Cast<APickUp>(CollectedActors[iCollected]);
+		//형변환이 성공하고 아이템이 유효하고 활성화 되어있을 때
+		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
+		{
+
+			//해당 아이템의 WasCollected 함수를 호출
+			TestPickup->WasCollected();
+			//아이템을 비활성화 시킨다
+			TestPickup->SetActive(false);
+		}
+	}
+}
+

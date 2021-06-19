@@ -15,17 +15,22 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_SPARSE_DATA
 #define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_RPC_WRAPPERS \
+	virtual void WasCollected_Implementation(); \
  \
+	DECLARE_FUNCTION(execWasCollected); \
 	DECLARE_FUNCTION(execSetActive); \
 	DECLARE_FUNCTION(execIsActive);
 
 
 #define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execWasCollected); \
 	DECLARE_FUNCTION(execSetActive); \
 	DECLARE_FUNCTION(execIsActive);
 
 
+#define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_EVENT_PARMS
+#define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_CALLBACK_WRAPPERS
 #define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAPickUp(); \
@@ -72,13 +77,17 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APickUp); \
 	FORCEINLINE static uint32 __PPO__PicupMesh() { return STRUCT_OFFSET(APickUp, PicupMesh); }
 
 
-#define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_9_PROLOG
+#define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_9_PROLOG \
+	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_EVENT_PARMS
+
+
 #define Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_PRIVATE_PROPERTY_OFFSET \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_SPARSE_DATA \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_RPC_WRAPPERS \
+	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_CALLBACK_WRAPPERS \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_INCLASS \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_STANDARD_CONSTRUCTORS \
 public: \
@@ -91,6 +100,7 @@ public: \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_PRIVATE_PROPERTY_OFFSET \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_SPARSE_DATA \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_CALLBACK_WRAPPERS \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_INCLASS_NO_PURE_DECLS \
 	Battery_Collector_Source_Battery_Collector_Public_PickUp_h_12_ENHANCED_CONSTRUCTORS \
 private: \

@@ -18,6 +18,10 @@ class ABattery_CollectorCharacter : public ACharacter
 	/** Follow camera */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
 	class UCameraComponent* FollowCamera;
+
+	// 아이템 탐지용 구체 콜리전
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Camera, meta = (AllowPrivateAccess = "true"))
+	class USphereComponent* CollectionSphere;
 public:
 	ABattery_CollectorCharacter();
 
@@ -63,10 +67,18 @@ protected:
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 	// End of APawn interface
 
+	//콜렉션 픽업 함수
+	//->이함수는 버튼을 누르면 동작 + CollectionSphere 속에 들어있는 아이템을 수거함
+	UFUNCTION(BlueprintCallable,Category = "Pickups")
+	void CollectionPickups();
+
 public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 	/** Returns FollowCamera subobject **/
 	FORCEINLINE class UCameraComponent* GetFollowCamera() const { return FollowCamera; }
+
+	// Collision Sphere subObject를 반환해줌
+	FORCEINLINE class USphereComponent* GetCollectionSphere() const { return CollectionSphere; }
 };
 

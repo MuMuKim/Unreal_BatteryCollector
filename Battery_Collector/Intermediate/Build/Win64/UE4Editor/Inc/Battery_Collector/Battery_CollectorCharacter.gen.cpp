@@ -19,9 +19,47 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	UPackage* Z_Construct_UPackage__Script_Battery_Collector();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(ABattery_CollectorCharacter::execCollectionPickups)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->CollectionPickups();
+		P_NATIVE_END;
+	}
 	void ABattery_CollectorCharacter::StaticRegisterNativesABattery_CollectorCharacter()
 	{
+		UClass* Class = ABattery_CollectorCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "CollectionPickups", &ABattery_CollectorCharacter::execCollectionPickups },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Pickups" },
+		{ "Comment", "//?\xdd\xb7??? ?\xc8\xbe? ?\xd4\xbc?\n//->???\xd4\xbc??? ??\xc6\xb0?? ?????? ???? + CollectionSphere ?\xd3\xbf? ?????\xd6\xb4? ???????? ??????\n" },
+		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
+		{ "ToolTip", "?\xdd\xb7??? ?\xc8\xbe? ?\xd4\xbc?\n->???\xd4\xbc??? ??\xc6\xb0?? ?????? ???? + CollectionSphere ?\xd3\xbf? ?????\xd6\xb4? ???????? ??????" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABattery_CollectorCharacter, nullptr, "CollectionPickups", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ABattery_CollectorCharacter_NoRegister()
 	{
@@ -30,6 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	struct Z_Construct_UClass_ABattery_CollectorCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -41,6 +80,10 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CollectionSphere_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CollectionSphere;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
@@ -56,6 +99,9 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	UObject* (*const Z_Construct_UClass_ABattery_CollectorCharacter_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_ACharacter,
 		(UObject* (*)())Z_Construct_UPackage__Script_Battery_Collector,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ABattery_CollectorCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups, "CollectionPickups" }, // 2651017329
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::Class_MetaDataParams[] = {
@@ -87,6 +133,17 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CollectionSphere_MetaData[] = {
+		{ "AllowPrivateAccess", "true" },
+		{ "Category", "Camera" },
+		{ "Comment", "// ?????? \xc5\xbd???? ??\xc3\xbc ?\xdd\xb8???\n" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
+		{ "ToolTip", "?????? \xc5\xbd???? ??\xc3\xbc ?\xdd\xb8???" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CollectionSphere = { "CollectionSphere", nullptr, (EPropertyFlags)0x00400000000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, CollectionSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CollectionSphere_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CollectionSphere_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -107,6 +164,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABattery_CollectorCharacter_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CameraBoom,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_FollowCamera,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CollectionSphere,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseLookUpRate,
 	};
@@ -118,11 +176,11 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ABattery_CollectorCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -137,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattery_CollectorCharacter, 3836501212);
+	IMPLEMENT_CLASS(ABattery_CollectorCharacter, 1156456042);
 	template<> BATTERY_COLLECTOR_API UClass* StaticClass<ABattery_CollectorCharacter>()
 	{
 		return ABattery_CollectorCharacter::StaticClass();

@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBatteryPickUp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABatteryPickUp, 4087981208);
+	IMPLEMENT_CLASS(ABatteryPickUp, 2754169123);
 	template<> BATTERY_COLLECTOR_API UClass* StaticClass<ABatteryPickUp>()
 	{
 		return ABatteryPickUp::StaticClass();

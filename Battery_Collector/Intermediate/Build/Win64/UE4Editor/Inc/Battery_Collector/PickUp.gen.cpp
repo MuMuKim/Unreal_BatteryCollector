@@ -19,6 +19,13 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 	UPackage* Z_Construct_UPackage__Script_Battery_Collector();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(APickUp::execWasCollected)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->WasCollected_Implementation();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(APickUp::execSetActive)
 	{
 		P_GET_UBOOL(Z_Param_NewPickupState);
@@ -34,12 +41,18 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		*(bool*)Z_Param__Result=P_THIS->IsActive();
 		P_NATIVE_END;
 	}
+	static FName NAME_APickUp_WasCollected = FName(TEXT("WasCollected"));
+	void APickUp::WasCollected()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_APickUp_WasCollected),NULL);
+	}
 	void APickUp::StaticRegisterNativesAPickUp()
 	{
 		UClass* Class = APickUp::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "IsActive", &APickUp::execIsActive },
 			{ "SetActive", &APickUp::execSetActive },
+			{ "WasCollected", &APickUp::execWasCollected },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 	}
@@ -123,6 +136,30 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_APickUp_WasCollected_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APickUp_WasCollected_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// BlueprintNativeEvent = C++, BluePrint???? ?\xd4\xbc??? ??\xc3\xbc?? ???? ?? ?\xd6\xb4?.\n// ->C++???? NativeEvent?\xd4\xbc??? ?????? ???? _Implementation \xc5\xb0???\xe5\xb0\xa1 ?\xd9\xbe?????.\n//???????? ?\xd4\xbe??? ?? \xc8\xa3???\xcf\xb4? ?\xd4\xbc?\n" },
+		{ "ModuleRelativePath", "Public/PickUp.h" },
+		{ "ToolTip", "BlueprintNativeEvent = C++, BluePrint???? ?\xd4\xbc??? ??\xc3\xbc?? ???? ?? ?\xd6\xb4?.\n->C++???? NativeEvent?\xd4\xbc??? ?????? ???? _Implementation \xc5\xb0???\xe5\xb0\xa1 ?\xd9\xbe?????.\n???????? ?\xd4\xbe??? ?? \xc8\xa3???\xcf\xb4? ?\xd4\xbc?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APickUp_WasCollected_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APickUp, nullptr, "WasCollected", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08020C00, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APickUp_WasCollected_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_APickUp_WasCollected_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APickUp_WasCollected()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APickUp_WasCollected_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_APickUp_NoRegister()
 	{
 		return APickUp::StaticClass();
@@ -149,6 +186,7 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 	const FClassFunctionLinkInfo Z_Construct_UClass_APickUp_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APickUp_IsActive, "IsActive" }, // 3826912444
 		{ &Z_Construct_UFunction_APickUp_SetActive, "SetActive" }, // 2481635935
+		{ &Z_Construct_UFunction_APickUp_WasCollected, "WasCollected" }, // 1031424283
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APickUp_Statics::Class_MetaDataParams[] = {
@@ -197,7 +235,7 @@ void EmptyLinkFunctionForGeneratedCodePickUp() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APickUp, 4216272885);
+	IMPLEMENT_CLASS(APickUp, 3060811429);
 	template<> BATTERY_COLLECTOR_API UClass* StaticClass<APickUp>()
 	{
 		return APickUp::StaticClass();
