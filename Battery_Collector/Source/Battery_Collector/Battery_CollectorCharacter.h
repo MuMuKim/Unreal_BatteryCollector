@@ -86,8 +86,20 @@ protected:
 	void CollectionPickups();
 
 	//케릭터 파워 초기값
-	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Power")
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Power", Meta = (BluePrintProtected = "true"))
 	float initialPower;
+
+	//케릭터 속도에 곱해지는 값
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power", Meta = (BluePrintProtected = "true"))
+	float SpeedFactor;
+
+	//파워 레벨0 일때의 케릭터 속도
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Power", Meta = (BluePrintProtected = "true"))
+	float BaseFactor;
+
+	//시각효과 함수 (Bp에서 기능을 만듦)
+	UFUNCTION(BlueprintImplementableEvent, Category = "Power")
+	void PowerChangeEffect();
 
 private:
 	//케릭터의 현재파워를 저장하는 변수

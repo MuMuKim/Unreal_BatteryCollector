@@ -50,6 +50,11 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		*(float*)Z_Param__Result=P_THIS->GetInitialPower();
 		P_NATIVE_END;
 	}
+	static FName NAME_ABattery_CollectorCharacter_PowerChangeEffect = FName(TEXT("PowerChangeEffect"));
+	void ABattery_CollectorCharacter::PowerChangeEffect()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ABattery_CollectorCharacter_PowerChangeEffect),NULL);
+	}
 	void ABattery_CollectorCharacter::StaticRegisterNativesABattery_CollectorCharacter()
 	{
 		UClass* Class = ABattery_CollectorCharacter::StaticClass();
@@ -156,6 +161,31 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Power" },
+		{ "Comment", "//?\xc3\xb0?\xc8\xbf?? ?\xd4\xbc? (Bp???? ?????? ????)\n" },
+		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
+		{ "ToolTip", "?\xc3\xb0?\xc8\xbf?? ?\xd4\xbc? (Bp???? ?????? ????)" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABattery_CollectorCharacter, nullptr, "PowerChangeEffect", nullptr, nullptr, 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x08080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ABattery_CollectorCharacter_UpdatePower_Statics
 	{
 		struct Battery_CollectorCharacter_eventUpdatePower_Parms
@@ -227,6 +257,14 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_initialPower;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpeedFactor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_SpeedFactor;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BaseFactor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BaseFactor;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CharacterPower_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_CharacterPower;
@@ -242,6 +280,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_CollectionPickups, "CollectionPickups" }, // 2651017329
 		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_GetCurrentPower, "GetCurrentPower" }, // 642140530
 		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_GetInitialPower, "GetInitialPower" }, // 1087755356
+		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_PowerChangeEffect, "PowerChangeEffect" }, // 3283765960
 		{ &Z_Construct_UFunction_ABattery_CollectorCharacter_UpdatePower, "UpdatePower" }, // 127763268
 	};
 #if WITH_METADATA
@@ -304,6 +343,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseLookUpRate = { "BaseLookUpRate", nullptr, (EPropertyFlags)0x0010000000020015, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, BaseLookUpRate), METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseLookUpRate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseLookUpRate_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_initialPower_MetaData[] = {
+		{ "BluePrintProtected", "true" },
 		{ "Category", "Power" },
 		{ "Comment", "//?\xc9\xb8??? ?\xc4\xbf? ?\xca\xb1\xe2\xb0\xaa\n" },
 		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
@@ -311,6 +351,26 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_initialPower = { "initialPower", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, initialPower), METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_initialPower_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_initialPower_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_SpeedFactor_MetaData[] = {
+		{ "BluePrintProtected", "true" },
+		{ "Category", "Power" },
+		{ "Comment", "//?\xc9\xb8??? ?\xd3\xb5??? ???????? ??\n" },
+		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
+		{ "ToolTip", "?\xc9\xb8??? ?\xd3\xb5??? ???????? ??" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_SpeedFactor = { "SpeedFactor", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, SpeedFactor), METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_SpeedFactor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_SpeedFactor_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseFactor_MetaData[] = {
+		{ "BluePrintProtected", "true" },
+		{ "Category", "Power" },
+		{ "Comment", "//?\xc4\xbf? ????0 ?\xcf\xb6??? ?\xc9\xb8??? ?\xd3\xb5?\n" },
+		{ "ModuleRelativePath", "Battery_CollectorCharacter.h" },
+		{ "ToolTip", "?\xc4\xbf? ????0 ?\xcf\xb6??? ?\xc9\xb8??? ?\xd3\xb5?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseFactor = { "BaseFactor", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattery_CollectorCharacter, BaseFactor), METADATA_PARAMS(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseFactor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseFactor_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CharacterPower_MetaData[] = {
 		{ "Category", "Power" },
@@ -327,6 +387,8 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseTurnRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseLookUpRate,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_initialPower,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_SpeedFactor,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_BaseFactor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattery_CollectorCharacter_Statics::NewProp_CharacterPower,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABattery_CollectorCharacter_Statics::StaticCppClassTypeInfo = {
@@ -356,7 +418,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattery_CollectorCharacter, 2799773653);
+	IMPLEMENT_CLASS(ABattery_CollectorCharacter, 3832980608);
 	template<> BATTERY_COLLECTOR_API UClass* StaticClass<ABattery_CollectorCharacter>()
 	{
 		return ABattery_CollectorCharacter::StaticClass();

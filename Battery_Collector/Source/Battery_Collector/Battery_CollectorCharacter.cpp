@@ -56,6 +56,10 @@ ABattery_CollectorCharacter::ABattery_CollectorCharacter()
 	//케릭터의 기본 파워 초기값을 설정
 	initialPower = 2000.f;
 	CharacterPower = initialPower;
+
+	//파워레벨에 따라 속도를 설정
+	SpeedFactor = 0.75f;
+	BaseFactor = 10.f;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -205,8 +209,16 @@ float ABattery_CollectorCharacter::GetCurrentPower()
 	return CharacterPower;
 }
 
+//파워가 늘거나 줄면 호출됨
 void ABattery_CollectorCharacter::UpdatePower(float PowerChange)
 {
+	//파워를 바꿈
 	CharacterPower += PowerChange;
+
+	//파워에 따라 속도를 변경
+	GetCharacterMovement()->MaxWalkSpeed = BaseFactor + SpeedFactor * CharacterPower;
+
+	//시각효과 호출 (Bp에서 기능을 만듦)
+	PowerChangeEffect();
 }
 
