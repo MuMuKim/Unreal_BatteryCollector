@@ -16,12 +16,18 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_12_SPARSE_DATA
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_12_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execCollectionPickups);
+	DECLARE_FUNCTION(execCollectionPickups); \
+	DECLARE_FUNCTION(execUpdatePower); \
+	DECLARE_FUNCTION(execGetCurrentPower); \
+	DECLARE_FUNCTION(execGetInitialPower);
 
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
-	DECLARE_FUNCTION(execCollectionPickups);
+	DECLARE_FUNCTION(execCollectionPickups); \
+	DECLARE_FUNCTION(execUpdatePower); \
+	DECLARE_FUNCTION(execGetCurrentPower); \
+	DECLARE_FUNCTION(execGetInitialPower);
 
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_12_INCLASS_NO_PURE_DECLS \
@@ -69,7 +75,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABattery_CollectorCharacter); \
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(ABattery_CollectorCharacter, CameraBoom); } \
 	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(ABattery_CollectorCharacter, FollowCamera); } \
-	FORCEINLINE static uint32 __PPO__CollectionSphere() { return STRUCT_OFFSET(ABattery_CollectorCharacter, CollectionSphere); }
+	FORCEINLINE static uint32 __PPO__CollectionSphere() { return STRUCT_OFFSET(ABattery_CollectorCharacter, CollectionSphere); } \
+	FORCEINLINE static uint32 __PPO__initialPower() { return STRUCT_OFFSET(ABattery_CollectorCharacter, initialPower); } \
+	FORCEINLINE static uint32 __PPO__CharacterPower() { return STRUCT_OFFSET(ABattery_CollectorCharacter, CharacterPower); }
 
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorCharacter_h_9_PROLOG

@@ -33,6 +33,19 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseLookUpRate;
 
+	//InitialPower 값을 얻어오는 함수
+	UFUNCTION(BlueprintPure, Category = "Power")
+	float GetInitialPower();
+
+	//현재 Power 값을 얻어오는 함수
+	UFUNCTION(BlueprintPure, Category = "Power")
+	float GetCurrentPower();
+
+	//케릭터의 현재 파워 값을 업데이트함
+	//PowerChange는 현재 파워값에 더할 값으로 값은 양수,음수 일수있음
+	UFUNCTION(BlueprintCallable, Category = "Power")
+	void UpdatePower(float PowerChange);
+
 protected:
 
 	/** Resets HMD orientation in VR. */
@@ -71,6 +84,15 @@ protected:
 	//->이함수는 버튼을 누르면 동작 + CollectionSphere 속에 들어있는 아이템을 수거함
 	UFUNCTION(BlueprintCallable,Category = "Pickups")
 	void CollectionPickups();
+
+	//케릭터 파워 초기값
+	UPROPERTY(EditAnywhere,BlueprintReadWrite,Category = "Power")
+	float initialPower;
+
+private:
+	//케릭터의 현재파워를 저장하는 변수
+	UPROPERTY(VisibleAnywhere, Category = "Power")
+	float CharacterPower;
 
 public:
 	/** Returns CameraBoom subobject **/

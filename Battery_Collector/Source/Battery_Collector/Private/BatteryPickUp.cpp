@@ -6,6 +6,9 @@
 ABatteryPickUp::ABatteryPickUp()
 {
 	GetMesh()->SetSimulatePhysics(true);
+
+	//베터리의 기본 값을 설정해줌
+	BetteryPower = 150.f;
 }
 
 void ABatteryPickUp::WasCollected_Implementation()
@@ -16,3 +19,10 @@ void ABatteryPickUp::WasCollected_Implementation()
 	//베터리 아이템 파괴하기
 	Destroy();
 }
+
+//베터리의 파워 값을 반환함
+float ABatteryPickUp::GetPower()
+{
+	return BetteryPower;
+}
+
