@@ -13,6 +13,13 @@ class ABattery_CollectorGameMode : public AGameModeBase
 
 public:
 	ABattery_CollectorGameMode();
+
+	virtual void Tick(float DeltaTime) override;
+
+protected:
+	//케릭터의 파워가 줄어드는 정도
+	UPROPERTY(EditDefaultsOnly,BlueprintReadWrite, Category = "Power")
+	float DecayRate;
 };
 
 

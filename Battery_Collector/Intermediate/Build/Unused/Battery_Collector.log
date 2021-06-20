@@ -9,13 +9,12 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  Battery_CollectorCharacter.cpp (0:27.84 at +0:00)
-C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Source\Battery_Collector\Battery_CollectorCharacter.cpp(50): warning C4996: 'USceneComponent::AttachTo': This function is deprecated, please use AttachToComponent instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-  UE4Editor-Battery_Collector-0025.lib (0:00.21 at +0:27)
-     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0025.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0025.exp 개체를 생성하고 있습니다.
-  UE4Editor-Battery_Collector-0025.dll (0:01.00 at +0:28)
-     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0025.suppressed.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0025.suppressed.exp 개체를 생성하고 있습니다.
-  Battery_CollectorEditor.target (0:00.18 at +0:29)
+  Battery_CollectorGameMode.cpp (0:01.62 at +0:00)
+  UE4Editor-Battery_Collector-0039.lib (0:00.15 at +0:01)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0039.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0039.exp 개체를 생성하고 있습니다.
+  UE4Editor-Battery_Collector-0039.dll (0:01.17 at +0:01)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0039.suppressed.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0039.suppressed.exp 개체를 생성하고 있습니다.
+  Battery_CollectorEditor.target (0:00.18 at +0:02)
   ---------------------- Done ----------------------
   
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -23,5 +22,5 @@ C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Sou
   1 build system warning(s):
      - License is invalid
   
-  Total time in XGE executor: 29.62 seconds
-  Total execution time: 30.61 seconds
+  Total time in XGE executor: 3.45 seconds
+  Total execution time: 4.13 seconds

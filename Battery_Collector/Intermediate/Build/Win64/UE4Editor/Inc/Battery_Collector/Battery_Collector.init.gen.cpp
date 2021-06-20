@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_Collector_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x5900FF50,
+				0xBAF431CB,
 				0xA4F9FEF5,
 				METADATA_PARAMS(nullptr, 0)
 			};
