@@ -10,6 +10,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include <Components/SphereComponent.h>
 #include "PickUp.h"
+#include "BatteryPickUp.h"
 //////////////////////////////////////////////////////////////////////////
 // ABattery_CollectorCharacter
 
@@ -157,6 +158,11 @@ void ABattery_CollectorCharacter::CollectionPickups()
 	// CollectionSphere와 오버랩된 모든 액터를 배열로 받아옴
 	TArray<AActor*> CollectedActors;
 	CollectionSphere->GetOverlappingActors(CollectedActors);
+
+	//먹은 아이템의 파워를 계속 추적할 변수
+	//->함수가 실행될때마다 초기화해야하기 떄문에 0을 넣음
+	float CollectedPower = 0;
+
 	//Foreach문을 통해
 	for (int32 iCollected = 0; iCollected < CollectedActors.Num(); ++iCollected)
 	{
@@ -165,12 +171,24 @@ void ABattery_CollectorCharacter::CollectionPickups()
 		//형변환이 성공하고 아이템이 유효하고 활성화 되어있을 때
 		if (TestPickup && !TestPickup->IsPendingKill() && TestPickup->IsActive())
 		{
-
 			//해당 아이템의 WasCollected 함수를 호출
 			TestPickup->WasCollected();
+
+			//아이템이 베터리형인지 형변환으로 확인
+			ABatteryPickUp* const TestBattery = Cast<ABatteryPickUp>(TestPickup);
+			if (TestBattery)
+			{
+				//베터리의 파워값을 CollectedPower에 더해줌
+				//->아이템의 파워값을 케릭터에 더해주기
+				CollectedPower += TestBattery->GetPower();
+			}
 			//아이템을 비활성화 시킨다
 			TestPickup->SetActive(false);
 		}
+	}
+	if (CollectedPower > 0)
+	{
+		UpdatePower(CollectedPower);
 	}
 }
 

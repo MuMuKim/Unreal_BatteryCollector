@@ -898,3 +898,111 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.20-07.22.29:782][619]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
 [2021.06.20-07.22.31:158][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
 [2021.06.20-07.22.31:610][726]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2021.06.20-07.40.49:156][ 69]LogHotReload: New module detected: UE4Editor-Battery_Collector-0025.dll
+[2021.06.20-07.40.50:171][ 73]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.20-07.40.50:490][ 73]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.20-07.40.50:539][ 73]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0016 seconds. Added 5 classes and 3 folders.
+[2021.06.20-07.40.50:544][ 73]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2021.06.20-07.40.50:722][ 73]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0205 seconds. Added 3606 classes and 862 folders.
+[2021.06.20-07.40.50:725][ 73]Display: HotReload took  0.6s.
+[2021.06.20-07.40.55:434][138]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.20-07.40.55:465][138]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.20-07.40.55:477][138]PIE: New page: PIE session: CollectionLevel (Jun 21, 2021, 1:40:55 AM)
+[2021.06.20-07.40.55:504][138]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.20-07.40.55:548][138]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038412s)
+[2021.06.20-07.40.55:559][138]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.20-07.40.55:569][138]LogPlayLevel: PIE: World Init took: (0.020944s)
+[2021.06.20-07.40.55:569][138]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.065213s)
+[2021.06.20-07.40.55:706][138]LogUObjectHash: Compacting FUObjectHashTables data took   7.20ms
+[2021.06.20-07.40.55:715][138]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2021.06.20-07.40.55:717][138]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.20-07.40.55:717][138]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.20-07.40.55:718][138]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.20-07.40.55:718][138]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.20-07.40.55:718][138]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.20-07.40.55:718][138]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.20-07.40.55:718][138]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.20-07.40.55:719][138]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.20-07.40.55:722][138]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.20-07.40.55:722][138]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.20-07.40.55:736][138]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.20-07.40.55:736][138]LogAudioMixer: Display: 1: FrontRight
+[2021.06.20-07.40.55:749][138]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.20-07.40.55:750][138]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.20-07.40.55:750][138]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.20-07.40.55:751][138]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.20-07.40.55:756][138]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.20-07.40.55:756][138]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.20-07.40.55:756][138]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.20-07.40.55:782][138]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.20-07.40.55:782][138]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.20-07.40.55:782][138]LogInit: FAudioDevice initialized.
+[2021.06.20-07.40.55:782][138]LogAudio: Display: Audio Device (ID: 3) registered with world 'CollectionLevel'.
+[2021.06.20-07.40.55:872][138]LogLoad: Game class is 'Battery_CollectorGameMode'
+[2021.06.20-07.40.55:899][138]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.20-16.40.55
+[2021.06.20-07.40.55:902][138]LogWorld: Bringing up level for play took: 0.015162
+[2021.06.20-07.40.55:913][138]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2021.06.20-07.40.55:988][138]PIE: Server logged in
+[2021.06.20-07.40.55:991][138]PIE: Play in editor total start time 0.54 seconds.
+[2021.06.20-07.41.17:356][378]LogSlate: Took 0.012604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.06.20-07.41.38:717][793]LogClass: You have collected Battery_BP_C_3
+[2021.06.20-07.41.38:717][793]LogClass: You have collected Battery_BP_C_5
+[2021.06.20-07.41.38:717][793]LogClass: You have collected Battery_BP_C_2
+[2021.06.20-07.41.39:162][814]LogClass: You have collected Battery_BP_C_0
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_9
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_6
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_10
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_1
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_4
+[2021.06.20-07.41.39:163][814]LogClass: You have collected Battery_BP_C_7
+[2021.06.20-07.41.39:720][841]LogClass: You have collected Battery_BP_C_11
+[2021.06.20-07.41.39:720][841]LogClass: You have collected Battery_BP_C_8
+[2021.06.20-07.41.40:608][884]LogCharacterMovement: ThirdPersonCharacter is stuck and failed to move! Velocity: X=-507.91 Y=-19.26 Z=0.00 Location: X=2837.28 Y=273.73 Z=108.79 Normal: X=0.16 Y=-0.34 Z=-0.93 PenetrationDepth:2.762 Actor:Battery_BP_C_12 Component:PickupMesh BoneName:None (0 other events since notify)
+[2021.06.20-07.41.43:695][ 33]LogClass: You have collected Battery_BP_C_13
+[2021.06.20-07.41.46:998][191]LogClass: You have collected Battery_BP_C_14
+[2021.06.20-07.41.50:152][341]LogClass: You have collected Battery_BP_C_15
+[2021.06.20-07.41.53:706][510]LogClass: You have collected Battery_BP_C_16
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_16
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_5
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_26
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_9
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_19
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_17
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_3
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_6
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_13
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_23
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_1
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_20
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_15
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_2
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_0
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_22
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_7
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_24
+[2021.06.20-07.41.56:926][653]LogClass: You have collected PickUp_BP_C_4
+[2021.06.20-07.41.57:733][688]LogClass: You have collected PickUp_BP_C_14
+[2021.06.20-07.41.57:733][688]LogClass: You have collected PickUp_BP_C_18
+[2021.06.20-07.41.59:396][761]LogClass: You have collected PickUp_BP_C_11
+[2021.06.20-07.41.59:396][761]LogClass: You have collected PickUp_BP_C_25
+[2021.06.20-07.41.59:752][776]LogClass: You have collected PickUp_BP_C_28
+[2021.06.20-07.42.00:030][788]LogClass: You have collected PickUp_BP_C_12
+[2021.06.20-07.42.00:030][788]LogClass: You have collected PickUp_BP_C_8
+[2021.06.20-07.42.00:030][788]LogClass: You have collected PickUp_BP_C_27
+[2021.06.20-07.42.03:205][929]LogClass: You have collected Battery_BP_C_17
+[2021.06.20-07.42.03:205][929]LogClass: You have collected Battery_BP_C_19
+[2021.06.20-07.42.03:205][929]LogClass: You have collected Battery_BP_C_18
+[2021.06.20-07.42.08:872][183]LogClass: You have collected Battery_BP_C_20
+[2021.06.20-07.42.10:055][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.20-07.42.10:056][237]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.20-07.42.10:057][237]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.20-07.42.10:060][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.20-07.42.10:081][237]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.20-07.42.10:088][237]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.20-07.42.10:112][237]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.20-07.42.10:115][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.20-07.42.10:131][237]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.20-07.42.10:176][237]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.06.20-07.42.10:228][238]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2021.06.20-07.42.51:863][417]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2021.06.20-07.42.52:209][437]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
