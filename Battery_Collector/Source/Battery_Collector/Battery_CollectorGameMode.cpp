@@ -139,6 +139,7 @@ void ABattery_CollectorGameMode::HandleNewState(EBatteryPlayState NewState)
 		if (MyCharacter)
 		{
 			MyCharacter->GetMesh()->SetSimulatePhysics(true);
+			//MyCharacter->GetMovementComponent()->MovementState.bCanJump = false;
 		}
 	}
 		break;

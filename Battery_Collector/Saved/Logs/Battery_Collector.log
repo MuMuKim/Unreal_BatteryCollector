@@ -967,3 +967,339 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.27-03.26.03:765][210]LogPlayLevel: Display: Destroying online subsystem :Context_10
 [2021.06.27-03.26.55:269][523]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
 [2021.06.27-03.26.55:876][558]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2021.06.27-03.32.29:195][871]Cmd: DELETE
+[2021.06.27-03.32.29:197][871]Cmd: ACTOR DELETE
+[2021.06.27-03.32.29:223][871]LogEditorActor: Deleted Actor: SpawnVolume
+[2021.06.27-03.32.29:248][871]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.06.27-03.32.29:249][871]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2021.06.27-03.33.33:234][950]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.27-03.33.40:460][230]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2021.06.27-03.34.14:684][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2021.06.27-03.34.14:703][541]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel_Auto15274A2CB4E03274DFC273FA89823BFA2.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Autosaves/Game/Map/CollectionLevel_Auto1.umap'
+[2021.06.27-03.34.14:705][541]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/CollectionLevel' took 0.051
+[2021.06.27-03.34.14:705][541]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.051
+[2021.06.27-03.35.23:533][558]BlueprintLog: New page: Compile GameMovd_BP
+[2021.06.27-03.35.23:577][558]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2021.06.27-03.35.25:515][670]MapCheck: New page: Map Check
+[2021.06.27-03.35.25:577][670]Cmd: MAP REBUILD ALLVISIBLE
+[2021.06.27-03.35.25:578][670]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2021.06.27-03.35.25:659][670]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=false
+[2021.06.27-03.35.25:674][670]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2021.06.27-03.35.25:674][670]LogNavigationDataBuild: Display:    Building navigation data using PHYSICS_INTERFACE_PHYSX.
+[2021.06.27-03.35.25:674][670]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2021.06.27-03.35.25:722][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2021.06.27-03.35.25:729][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:749][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:751][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:752][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:754][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:755][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.25:757][670]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2021.06.27-03.35.30:143][670]TextureStreamingBuild: Display: Compiling optional shaders took 4.420 seconds.
+[2021.06.27-03.35.30:167][670]LogLevel: Display: Export Material TexCoord Scales took 0.024 seconds.
+[2021.06.27-03.35.30:172][670]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2021.06.27-03.35.30:195][670]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2021.06.27-03.35.30:200][670]LightingResults: New page: Lighting Build - Jun 27, 2021, 9:35:30 PM
+[2021.06.27-03.35.30:410][670]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2021.06.27-03.35.30:660][670]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2021.06.27-03.35.30:677][670]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2021.06.27-03.35.31:712][670]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2021.06.27-03.35.31:712][670]LogSwarmInterface: [TryOpenConnection] Local Process ID is 8480
+[2021.06.27-03.35.38:917][670]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2021.06.27-03.35.38:918][670]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2021.06.27-03.35.38:918][670]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2021.06.27-03.35.38:918][670]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2021.06.27-03.35.38:918][670]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2021.06.27-03.35.38:918][670]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2021.06.27-03.35.39:204][670]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2021.06.27-03.35.39:204][670]MapCheck: New page: CollectionLevel - Jun 27, 2021, 9:35:39 PM
+[2021.06.27-03.35.39:204][670]MapCheck: Error: WorldSettings_1 Maps need lighting rebuilt 
+[2021.06.27-03.35.39:205][670]MapCheck: Map check complete: 1 Error(s), 0 Warning(s), took 1.435ms to complete.
+[2021.06.27-03.35.39:207][670]LogEditorBuildUtils: Build time 0:13
+[2021.06.27-03.35.39:627][670]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.06.27-03.35.39:634][670]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.06.27-03.35.39:746][671]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass_Inst, compiling. 
+[2021.06.27-03.35.39:750][671]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass_Inst, compiling. 
+[2021.06.27-03.35.39:754][671]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2021.06.27-03.35.39:757][671]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_Glass, compiling. 
+[2021.06.27-03.35.39:776][672]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_LightTube_Inst, compiling. 
+[2021.06.27-03.35.39:780][672]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_LightTube_Inst, compiling. 
+[2021.06.27-03.35.39:784][672]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_DemoWall_Inst, compiling. 
+[2021.06.27-03.35.39:788][672]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer M_DemoWall_Inst, compiling. 
+[2021.06.27-03.35.39:844][673]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.06.27-03.35.39:847][673]LogMaterial: Display: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_0, compiling. 
+[2021.06.27-03.35.46:584][695]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2021.06.27-03.35.49:212][775]LogSlate: Window 'Message Log' being destroyed
+[2021.06.27-03.35.49:222][775]LogSlate: Window 'Message Log' being destroyed
+[2021.06.27-03.35.53:987][975]Job is a success!
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.013s
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:      BrickData (all levels) 0.2Mb (trimmed 0.2Mb due to 0.010000 MinBrickError)
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:      Bricks at depth
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:          0: 2.0% covering 100.0% of volume
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:          1: 8.2% covering 6.2% of volume
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:          2: 89.8% covering 1.1% of volume
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:      Bricks in each level
+[2021.06.27-03.35.54:103][976]LogVolumetricLightmapImport:          CollectionLevel 			 49 bricks 	 100.0% (Persistent Level)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 1024X1024)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 1024X1024)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 64X64)
+[2021.06.27-03.35.54:875][976]LogTexture: Display: Building textures: LQ_Lightmap_0_4 (DXT1, 64X64)
+[2021.06.27-03.35.55:100][976]LogTexture: Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2021.06.27-03.35.55:100][976]LogTexture: Display: Building textures: ShadowMapTexture2D_1 (G8, 128X32)
+[2021.06.27-03.35.55:100][976]LogTexture: Display: Building textures: ShadowMapTexture2D_0 (G8, 1024X1024)
+[2021.06.27-03.35.55:100][976]Lightmass on DESKTOP-9DK26QA: 7.31 sec total, 286 ms importing, 57 ms setup, 1.12 sec photons, 5.74 sec processing, 0 ms extra exporting [21/21 mappings]. Threads: 1:03 min total, 25.9 sec processing.
+[2021.06.27-03.35.55:109][976]LogStaticLightingSystem: CollectionLevel_BuiltData storing lightmap data for 21 meshes in 4 LightmapResourceClusters (5.2 Meshes per cluster).
+[2021.06.27-03.35.55:150][976]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2021.06.27-03.35.55:172][976]LogStaticLightingSystem: Illumination: 24.9 sec (684 ms encoding lightmaps, 161 ms encoding shadowmaps)
+[2021.06.27-03.35.55:172][976]LogStaticLightingSystem: Lightmap texture memory:  4.0 MB (4.0 MB streaming, 0.0 MB non-streaming), 8 textures
+[2021.06.27-03.35.55:173][976]LogStaticLightingSystem: Shadowmap texture memory: 1.3 MB (1.3 MB streaming, 0.0 MB non-streaming), 3 textures
+[2021.06.27-03.35.55:928][976]DumpUnbuiltLightIteractions
+[2021.06.27-03.35.55:929][976]Lights with unbuilt interactions: 0
+[2021.06.27-03.35.55:929][976]
+[2021.06.27-03.35.55:929][976]Primitives with unbuilt interactions: 0
+[2021.06.27-03.35.55:968][977]Cmd: MAP CHECK NOTIFYRESULTS
+[2021.06.27-03.35.55:969][977]MapCheck: New page: CollectionLevel - Jun 27, 2021, 9:35:55 PM
+[2021.06.27-03.35.55:969][977]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.426ms to complete.
+[2021.06.27-03.35.56:767][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   6.68ms
+[2021.06.27-03.35.58:630][ 14]LogSlate: Window 'Save Content' being destroyed
+[2021.06.27-03.35.58:699][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2021.06.27-03.35.58:726][ 14]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel50A5C6E046F4AEF8F8B6BF94A4CD55BA.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/Map/CollectionLevel.umap'
+[2021.06.27-03.35.58:740][ 14]LogFileHelpers: Saving map 'CollectionLevel' took 0.080
+[2021.06.27-03.35.58:973][ 14]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/CollectionLevel_BuiltData4DC7C9EB49DED83F966A76852E5A2A44.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/Map/CollectionLevel_BuiltData.uasset'
+[2021.06.27-03.35.58:977][ 14]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/GameMovd_BP01B5CADA4152167C6741888FA77AF4AB.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/GameMovd_BP.uasset'
+[2021.06.27-03.35.59:002][ 14]AssetCheck: New page: Asset Save: multiple assets
+[2021.06.27-03.35.59:002][ 14]LogContentValidation: Display: Validating Blueprint /Game/BluePrint/GameMovd_BP.GameMovd_BP
+[2021.06.27-03.35.59:002][ 14]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/Map/CollectionLevel_BuiltData.CollectionLevel_BuiltData
+[2021.06.27-03.35.59:002][ 14]LogContentValidation: Display: Validating World /Game/Map/CollectionLevel.CollectionLevel
+[2021.06.27-03.35.59:729][ 57]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.27-03.35.59:735][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.27-03.35.59:735][ 57]PIE: New page: PIE session: CollectionLevel (Jun 27, 2021, 9:35:59 PM)
+[2021.06.27-03.35.59:735][ 57]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.35.59:741][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004997s)
+[2021.06.27-03.35.59:741][ 57]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.27-03.35.59:742][ 57]LogPlayLevel: PIE: World Init took: (0.001068s)
+[2021.06.27-03.35.59:742][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.006284s)
+[2021.06.27-03.35.59:770][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2021.06.27-03.35.59:773][ 57]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.27-03.35.59:773][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.27-03.35.59:773][ 57]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.27-03.35.59:773][ 57]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.27-03.35.59:777][ 57]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.27-03.35.59:777][ 57]LogAudioMixer: Display: 1: FrontRight
+[2021.06.27-03.35.59:785][ 57]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.27-03.35.59:785][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.27-03.35.59:785][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.27-03.35.59:785][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.27-03.35.59:786][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.27-03.35.59:786][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.27-03.35.59:786][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.27-03.35.59:800][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.27-03.35.59:800][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.27-03.35.59:800][ 57]LogInit: FAudioDevice initialized.
+[2021.06.27-03.35.59:800][ 57]LogAudio: Display: Audio Device (ID: 5) registered with world 'CollectionLevel'.
+[2021.06.27-03.35.59:807][ 57]LogLoad: Game class is 'GameMovd_BP_C'
+[2021.06.27-03.35.59:809][ 57]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.27-12.35.59
+[2021.06.27-03.35.59:809][ 57]LogWorld: Bringing up level for play took: 0.000955
+[2021.06.27-03.35.59:809][ 57]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2021.06.27-03.35.59:812][ 57]PIE: Server logged in
+[2021.06.27-03.35.59:813][ 57]PIE: Play in editor total start time 0.079 seconds.
+[2021.06.27-03.36.07:255][503]LogClass: You have collected Battery_BP_C_0
+[2021.06.27-03.36.07:255][503]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.10:095][673]LogClass: You have collected Battery_BP_C_1
+[2021.06.27-03.36.10:096][673]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.11:696][769]LogClass: You have collected Battery_BP_C_2
+[2021.06.27-03.36.11:696][769]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.16:272][ 42]LogClass: You have collected Battery_BP_C_4
+[2021.06.27-03.36.16:272][ 42]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.17:925][141]LogClass: You have collected Battery_BP_C_3
+[2021.06.27-03.36.17:925][141]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.17:925][141]LogClass: You have collected Battery_BP_C_6
+[2021.06.27-03.36.17:925][141]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.21:391][349]LogClass: You have collected Battery_BP_C_5
+[2021.06.27-03.36.21:391][349]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.23:423][471]LogClass: You have collected Battery_BP_C_8
+[2021.06.27-03.36.23:424][471]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.28:324][765]LogClass: You have collected Battery_BP_C_7
+[2021.06.27-03.36.28:324][765]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.32:941][ 42]LogClass: You have collected Battery_BP_C_10
+[2021.06.27-03.36.32:941][ 42]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.35:742][210]LogClass: You have collected Battery_BP_C_11
+[2021.06.27-03.36.35:742][210]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.36.40:508][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.36.40:508][494]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.36.40:508][494]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.27-03.36.40:509][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.36.40:517][494]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.27-03.36.40:535][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.36.40:565][494]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.36.40:566][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.36.40:567][494]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.36.40:587][494]LogUObjectHash: Compacting FUObjectHashTables data took   3.55ms
+[2021.06.27-03.36.40:621][495]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2021.06.27-03.37.23:969][963]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BluePrint/Battery_UHD.Battery_UHD
+[2021.06.27-03.39.11:155][640]BlueprintLog: New page: Compile Battery_UHD
+[2021.06.27-03.39.11:236][640]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2021.06.27-03.39.11:970][670]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_UHDD683FEEE4271544A4930B182389738B3.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_UHD.uasset'
+[2021.06.27-03.39.11:987][670]AssetCheck: New page: Asset Save: Battery_UHD
+[2021.06.27-03.39.11:987][670]LogContentValidation: Display: Validating WidgetBlueprint /Game/BluePrint/Battery_UHD.Battery_UHD
+[2021.06.27-03.39.12:910][709]LogSlate: Window 'Battery_UHD' being destroyed
+[2021.06.27-03.39.14:498][803]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.27-03.39.14:507][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.27-03.39.14:507][803]PIE: New page: PIE session: CollectionLevel (Jun 27, 2021, 9:39:14 PM)
+[2021.06.27-03.39.14:507][803]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.39.14:511][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003322s)
+[2021.06.27-03.39.14:512][803]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.27-03.39.14:512][803]LogPlayLevel: PIE: World Init took: (0.001505s)
+[2021.06.27-03.39.14:512][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.004961s)
+[2021.06.27-03.39.14:566][803]LogUObjectHash: Compacting FUObjectHashTables data took   7.74ms
+[2021.06.27-03.39.14:568][803]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.27-03.39.14:568][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.27-03.39.14:568][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.27-03.39.14:569][803]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.27-03.39.14:569][803]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.27-03.39.14:571][803]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.27-03.39.14:571][803]LogAudioMixer: Display: 1: FrontRight
+[2021.06.27-03.39.14:582][803]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.27-03.39.14:582][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.27-03.39.14:582][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.27-03.39.14:582][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.27-03.39.14:583][803]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.27-03.39.14:583][803]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.27-03.39.14:584][803]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.27-03.39.14:596][803]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.27-03.39.14:596][803]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.27-03.39.14:596][803]LogInit: FAudioDevice initialized.
+[2021.06.27-03.39.14:596][803]LogAudio: Display: Audio Device (ID: 6) registered with world 'CollectionLevel'.
+[2021.06.27-03.39.14:606][803]LogLoad: Game class is 'GameMovd_BP_C'
+[2021.06.27-03.39.14:607][803]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.27-12.39.14
+[2021.06.27-03.39.14:607][803]LogWorld: Bringing up level for play took: 0.000866
+[2021.06.27-03.39.14:608][803]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2021.06.27-03.39.14:610][803]PIE: Server logged in
+[2021.06.27-03.39.14:611][803]PIE: Play in editor total start time 0.104 seconds.
+[2021.06.27-03.39.15:087][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.39.15:087][829]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.39.15:087][829]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.27-03.39.15:089][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.39.15:099][829]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.27-03.39.15:114][829]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.39.15:149][829]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.27-03.39.15:149][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.39.15:150][829]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.39.15:165][829]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.39.15:170][829]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2021.06.27-03.39.15:197][830]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2021.06.27-03.39.33:987][777]LogAssetEditorSubsystem: Opening Asset editor for ParticleSystem /Game/ExampleContent/Effects/ParticleSystems/P_electricity_arc.P_electricity_arc
+[2021.06.27-03.39.34:280][777]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Cascade' in 0.0003 seconds. Added 2 classes and 2 folders.
+[2021.06.27-03.40.26:034][835]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/P_electricity_arcCB023A7C41B40223090E2690A26C0BC4.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2021.06.27-03.40.26:062][835]AssetCheck: New page: Asset Save: P_electricity_arc
+[2021.06.27-03.40.26:062][835]LogContentValidation: Display: Validating ParticleSystem /Game/ExampleContent/Effects/ParticleSystems/P_electricity_arc.P_electricity_arc
+[2021.06.27-03.41.44:198][720]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/P_electricity_arc21F9E83242CFE78B505F95ABB839231B.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/ExampleContent/Effects/ParticleSystems/P_electricity_arc.uasset'
+[2021.06.27-03.41.44:218][720]AssetCheck: New page: Asset Save: P_electricity_arc
+[2021.06.27-03.41.44:219][720]LogContentValidation: Display: Validating ParticleSystem /Game/ExampleContent/Effects/ParticleSystems/P_electricity_arc.P_electricity_arc
+[2021.06.27-03.41.45:614][803]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.27-03.41.45:620][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.27-03.41.45:620][803]PIE: New page: PIE session: CollectionLevel (Jun 27, 2021, 9:41:45 PM)
+[2021.06.27-03.41.45:621][803]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.41.45:624][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002873s)
+[2021.06.27-03.41.45:627][803]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.27-03.41.45:627][803]LogPlayLevel: PIE: World Init took: (0.003266s)
+[2021.06.27-03.41.45:627][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.006283s)
+[2021.06.27-03.41.45:710][803]LogUObjectHash: Compacting FUObjectHashTables data took   6.08ms
+[2021.06.27-03.41.45:716][803]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.27-03.41.45:716][803]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.27-03.41.45:716][803]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.27-03.41.45:716][803]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.27-03.41.45:718][803]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.27-03.41.45:718][803]LogAudioMixer: Display: 1: FrontRight
+[2021.06.27-03.41.45:727][803]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.27-03.41.45:727][803]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.27-03.41.45:727][803]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.27-03.41.45:727][803]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.27-03.41.45:728][803]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.27-03.41.45:728][803]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.27-03.41.45:728][803]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.27-03.41.45:742][803]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.27-03.41.45:742][803]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.27-03.41.45:742][803]LogInit: FAudioDevice initialized.
+[2021.06.27-03.41.45:742][803]LogAudio: Display: Audio Device (ID: 7) registered with world 'CollectionLevel'.
+[2021.06.27-03.41.45:753][803]LogLoad: Game class is 'GameMovd_BP_C'
+[2021.06.27-03.41.45:757][803]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.27-12.41.45
+[2021.06.27-03.41.45:757][803]LogWorld: Bringing up level for play took: 0.001999
+[2021.06.27-03.41.45:757][803]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2021.06.27-03.41.45:760][803]PIE: Server logged in
+[2021.06.27-03.41.45:761][803]PIE: Play in editor total start time 0.141 seconds.
+[2021.06.27-03.41.51:016][118]LogClass: You have collected Battery_BP_C_1
+[2021.06.27-03.41.51:016][118]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.41.54:141][305]LogClass: You have collected Battery_BP_C_4
+[2021.06.27-03.41.54:141][305]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.41.56:509][447]LogClass: You have collected Battery_BP_C_0
+[2021.06.27-03.41.56:509][447]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.41.57:409][501]LogClass: You have collected Battery_BP_C_7
+[2021.06.27-03.41.57:409][501]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.00:176][667]LogClass: You have collected Battery_BP_C_8
+[2021.06.27-03.42.00:176][667]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.00:659][696]LogClass: You have collected Battery_BP_C_5
+[2021.06.27-03.42.00:659][696]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.02:209][789]LogClass: You have collected Battery_BP_C_2
+[2021.06.27-03.42.02:209][789]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.03:358][858]LogClass: You have collected Battery_BP_C_3
+[2021.06.27-03.42.03:359][858]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.04:993][956]LogClass: You have collected Battery_BP_C_9
+[2021.06.27-03.42.04:993][956]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.07:744][121]LogClass: You have collected Battery_BP_C_10
+[2021.06.27-03.42.07:745][121]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.09:328][216]LogClass: You have collected Battery_BP_C_12
+[2021.06.27-03.42.09:329][216]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.11:881][369]LogClass: You have collected Battery_BP_C_6
+[2021.06.27-03.42.11:881][369]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.12:732][420]LogClass: You have collected Battery_BP_C_18
+[2021.06.27-03.42.12:732][420]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.13:891][489]LogClass: You have collected Battery_BP_C_13
+[2021.06.27-03.42.13:892][489]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.14:576][530]LogClass: You have collected Battery_BP_C_16
+[2021.06.27-03.42.14:578][530]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.16:826][665]LogClass: You have collected Battery_BP_C_15
+[2021.06.27-03.42.16:827][665]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.17:543][708]LogClass: You have collected Battery_BP_C_21
+[2021.06.27-03.42.17:543][708]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.17:543][708]LogClass: You have collected Battery_BP_C_22
+[2021.06.27-03.42.17:543][708]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-03.42.18:237][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.42.18:237][747]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-03.42.18:237][747]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.27-03.42.18:237][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.42.18:243][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.27-03.42.18:259][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-03.42.18:294][747]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.27-03.42.18:302][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.42.18:303][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-03.42.18:319][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-03.42.18:341][747]LogUObjectHash: Compacting FUObjectHashTables data took   4.91ms
+[2021.06.27-03.42.18:368][748]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2021.06.27-03.42.22:616][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2021.06.27-03.42.23:180][935]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
