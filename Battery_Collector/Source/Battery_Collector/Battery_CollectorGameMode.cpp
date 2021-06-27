@@ -23,6 +23,8 @@ ABattery_CollectorGameMode::ABattery_CollectorGameMode()
 void ABattery_CollectorGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+
+	SetCurrentState(EBatteryPlayState::EPlaying);
 		
 	//목표 점수 설정
 	ABattery_CollectorCharacter* MyCharacter = Cast<ABattery_CollectorCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
@@ -50,11 +52,20 @@ void ABattery_CollectorGameMode::Tick(float DeltaTime)
 	ABattery_CollectorCharacter* MyCharacter = Cast<ABattery_CollectorCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
 	if (MyCharacter)
 	{
-		//만약 케릭터의 파워가 0보다 크다면 (0이하로 떨어지지 않게 하려함
-		if (MyCharacter->GetCurrentPower() > 0)
+		//요구치 이상의 파워를 모으면 상태를 Won으로 설정
+		if (MyCharacter->GetCurrentPower() > PowerToWin)
+		{
+			SetCurrentState(EBatteryPlayState::EWon);
+		}
+		//만약 케릭터의 파워가 0보다 크다면 (0이하로 떨어지지 않게 하려함)
+		else if (MyCharacter->GetCurrentPower() > 0)
 		{
 			//DecayRate를 이용해 파워를 감소
 			MyCharacter->UpdatePower(-DeltaTime * DecayRate * (MyCharacter->GetInitialPower()));
+		}
+		else
+		{
+			SetCurrentState(EBatteryPlayState::EGameOver);
 		}
 	}
 }
@@ -62,5 +73,15 @@ void ABattery_CollectorGameMode::Tick(float DeltaTime)
 float ABattery_CollectorGameMode::GetPowerToWin() const
 {
 	return PowerToWin;
+}
+
+EBatteryPlayState ABattery_CollectorGameMode::GetCurrentState() const
+{
+	return CurrentState;
+}
+
+void ABattery_CollectorGameMode::SetCurrentState(EBatteryPlayState NewState)
+{
+	CurrentState = NewState;
 }
 

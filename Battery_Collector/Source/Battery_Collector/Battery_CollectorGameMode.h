@@ -6,6 +6,16 @@
 #include "GameFramework/GameModeBase.h"
 #include "Battery_CollectorGameMode.generated.h"
 
+//현재 게임플레이 상태를 저장하는 enum
+UENUM(BluePrintType)
+enum class EBatteryPlayState : uint8
+{
+	EPlaying,
+	EGameOver,
+	EWon,
+	EUnknown
+};
+
 UCLASS(minimalapi)
 class ABattery_CollectorGameMode : public AGameModeBase
 {
@@ -22,6 +32,12 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Power")
 	float GetPowerToWin() const;
 
+	//현재 플레이상태로 돌아감
+	UFUNCTION(BluePrintPure, Category = "Power")
+	EBatteryPlayState GetCurrentState() const;
+
+	//새 플레이 상태 설정
+	void SetCurrentState(EBatteryPlayState NewState);
 
 protected:
 	//케릭터의 파워가 줄어드는 정도
@@ -39,6 +55,10 @@ protected:
 	// UHD의 인스턴스
 	UPROPERTY()
 	class UUserWidget* CurrentWidget;
+
+private:
+	//현재 플레이 상태를 추적함
+	EBatteryPlayState CurrentState;
 };
 
 

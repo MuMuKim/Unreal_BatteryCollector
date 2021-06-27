@@ -13,13 +13,81 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBattery_CollectorGameMode() {}
 // Cross Module References
+	BATTERY_COLLECTOR_API UEnum* Z_Construct_UEnum_Battery_Collector_EBatteryPlayState();
+	UPackage* Z_Construct_UPackage__Script_Battery_Collector();
 	BATTERY_COLLECTOR_API UClass* Z_Construct_UClass_ABattery_CollectorGameMode_NoRegister();
 	BATTERY_COLLECTOR_API UClass* Z_Construct_UClass_ABattery_CollectorGameMode();
 	ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
-	UPackage* Z_Construct_UPackage__Script_Battery_Collector();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 // End Cross Module References
+	static UEnum* EBatteryPlayState_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Battery_Collector_EBatteryPlayState, Z_Construct_UPackage__Script_Battery_Collector(), TEXT("EBatteryPlayState"));
+		}
+		return Singleton;
+	}
+	template<> BATTERY_COLLECTOR_API UEnum* StaticEnum<EBatteryPlayState>()
+	{
+		return EBatteryPlayState_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EBatteryPlayState(EBatteryPlayState_StaticEnum, TEXT("/Script/Battery_Collector"), TEXT("EBatteryPlayState"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Battery_Collector_EBatteryPlayState_Hash() { return 1992573954U; }
+	UEnum* Z_Construct_UEnum_Battery_Collector_EBatteryPlayState()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Battery_Collector();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EBatteryPlayState"), 0, Get_Z_Construct_UEnum_Battery_Collector_EBatteryPlayState_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EBatteryPlayState::EPlaying", (int64)EBatteryPlayState::EPlaying },
+				{ "EBatteryPlayState::EGameOver", (int64)EBatteryPlayState::EGameOver },
+				{ "EBatteryPlayState::EWon", (int64)EBatteryPlayState::EWon },
+				{ "EBatteryPlayState::EUnknown", (int64)EBatteryPlayState::EUnknown },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "Comment", "//???? ?????\xc3\xb7??? ???\xc2\xb8? ?????\xcf\xb4? enum\n" },
+				{ "EGameOver.Name", "EBatteryPlayState::EGameOver" },
+				{ "EPlaying.Name", "EBatteryPlayState::EPlaying" },
+				{ "EUnknown.Name", "EBatteryPlayState::EUnknown" },
+				{ "EWon.Name", "EBatteryPlayState::EWon" },
+				{ "ModuleRelativePath", "Battery_CollectorGameMode.h" },
+				{ "ToolTip", "???? ?????\xc3\xb7??? ???\xc2\xb8? ?????\xcf\xb4? enum" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Battery_Collector,
+				nullptr,
+				"EBatteryPlayState",
+				"EBatteryPlayState",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
+	DEFINE_FUNCTION(ABattery_CollectorGameMode::execGetCurrentState)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(EBatteryPlayState*)Z_Param__Result=P_THIS->GetCurrentState();
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(ABattery_CollectorGameMode::execGetPowerToWin)
 	{
 		P_FINISH;
@@ -31,9 +99,48 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorGameMode() {}
 	{
 		UClass* Class = ABattery_CollectorGameMode::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetCurrentState", &ABattery_CollectorGameMode::execGetCurrentState },
 			{ "GetPowerToWin", &ABattery_CollectorGameMode::execGetPowerToWin },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics
+	{
+		struct Battery_CollectorGameMode_eventGetCurrentState_Parms
+		{
+			EBatteryPlayState ReturnValue;
+		};
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_ReturnValue_Underlying;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::NewProp_ReturnValue_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Battery_CollectorGameMode_eventGetCurrentState_Parms, ReturnValue), Z_Construct_UEnum_Battery_Collector_EBatteryPlayState, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::NewProp_ReturnValue_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Power" },
+		{ "Comment", "//???? ?\xc3\xb7??\xcc\xbb??\xc2\xb7? ???\xc6\xb0?\n" },
+		{ "ModuleRelativePath", "Battery_CollectorGameMode.h" },
+		{ "ToolTip", "???? ?\xc3\xb7??\xcc\xbb??\xc2\xb7? ???\xc6\xb0?" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ABattery_CollectorGameMode, nullptr, "GetCurrentState", nullptr, nullptr, sizeof(Battery_CollectorGameMode_eventGetCurrentState_Parms), Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ABattery_CollectorGameMode_GetPowerToWin_Statics
 	{
@@ -106,6 +213,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorGameMode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Battery_Collector,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ABattery_CollectorGameMode_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ABattery_CollectorGameMode_GetCurrentState, "GetCurrentState" }, // 4183715156
 		{ &Z_Construct_UFunction_ABattery_CollectorGameMode_GetPowerToWin, "GetPowerToWin" }, // 1766935182
 	};
 #if WITH_METADATA
@@ -188,7 +296,7 @@ void EmptyLinkFunctionForGeneratedCodeBattery_CollectorGameMode() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattery_CollectorGameMode, 3583274278);
+	IMPLEMENT_CLASS(ABattery_CollectorGameMode, 4121843592);
 	template<> BATTERY_COLLECTOR_API UClass* StaticClass<ABattery_CollectorGameMode>()
 	{
 		return ABattery_CollectorGameMode::StaticClass();

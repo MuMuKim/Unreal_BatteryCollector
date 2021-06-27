@@ -958,3 +958,99 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.06.27-01.52.31:486][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
 [2021.06.27-01.52.31:504][254]LogPlayLevel: Display: Destroying online subsystem :Context_11
 [2021.06.27-01.52.47:805][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2021.06.27-02.11.46:274][ 39]LogHotReload: New module detected: UE4Editor-Battery_Collector-0043.dll
+[2021.06.27-02.11.47:530][ 44]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.27-02.11.48:251][ 44]LogClass: Could not find existing class Battery_CollectorGameMode in package /Script/Battery_Collector for HotReload, assuming new class
+[2021.06.27-02.11.48:254][ 44]LogClass: Function GetCurrentState is new.
+[2021.06.27-02.11.48:254][ 44]LogClass: Function GetPowerToWin is new.
+[2021.06.27-02.11.48:260][ 44]LogClass: Could not find existing type EBatteryPlayState for HotReload. Assuming new
+[2021.06.27-02.11.48:393][ 44]LogHotReload: Re-instancing Battery_CollectorGameMode after hot-reload.
+[2021.06.27-02.11.49:021][ 44]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.27-02.11.49:076][ 44]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0027 seconds. Added 5 classes and 3 folders.
+[2021.06.27-02.11.49:083][ 44]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2021.06.27-02.11.49:449][ 44]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0231 seconds. Added 3606 classes and 862 folders.
+[2021.06.27-02.11.49:470][ 44]Display: HotReload took  1.9s.
+[2021.06.27-02.16.06:836][962]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.06.27-02.16.06:847][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-02.16.20:126][221]LogHotReload: New module detected: UE4Editor-Battery_Collector-0044.dll
+[2021.06.27-02.16.22:041][279]LogHotReload: Starting Hot-Reload from IDE
+[2021.06.27-02.16.22:172][279]LogClass: EBatteryPlayState HotReload.
+[2021.06.27-02.16.22:188][279]LogHotReload: Re-instancing SpawnVolume after hot-reload.
+[2021.06.27-02.16.22:222][279]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'Battery_Collector' in 0.0003 seconds. Added 5 classes and 3 folders.
+[2021.06.27-02.16.22:230][279]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2021.06.27-02.16.22:392][279]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0105 seconds. Added 3606 classes and 862 folders.
+[2021.06.27-02.16.22:396][279]Display: HotReload took  0.4s.
+[2021.06.27-02.16.49:218][484]LogUObjectHash: Compacting FUObjectHashTables data took  11.80ms
+[2021.06.27-02.16.49:233][484]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Map/CollectionLevel' took 0.728
+[2021.06.27-02.16.49:243][484]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BluePrint/Battery_UHD] ([1] browsable assets)...
+[2021.06.27-02.16.49:243][484]OBJ SavePackage: Finished generating thumbnails for package [/Game/BluePrint/Battery_UHD]
+[2021.06.27-02.16.49:326][484]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_UHD_Auto18CE6C99849604FCBCA89FDA1C115FF31.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Autosaves/Game/BluePrint/Battery_UHD_Auto1.uasset'
+[2021.06.27-02.16.49:329][484]LogFileHelpers: Auto-saving content packages took 0.092
+[2021.06.27-02.18.45:292][690]LogEditorTransaction: Undo Move Nodes
+[2021.06.27-02.18.46:691][766]LogEditorTransaction: Undo Convert to Pure Cast
+[2021.06.27-02.21.32:823][625]BlueprintLog: New page: Compile Battery_UHD
+[2021.06.27-02.21.33:160][625]LogUObjectHash: Compacting FUObjectHashTables data took  17.61ms
+[2021.06.27-02.21.33:611][642]LogSavePackage: Moving '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Saved/Battery_UHD2D47FE954CB43FE193C23C97BD0E9635.tmp' to '../../../../../../Users/JIHOONKIM/Documents/unity/Unreal_BatteryCollector/Battery_Collector/Content/BluePrint/Battery_UHD.uasset'
+[2021.06.27-02.21.33:637][642]AssetCheck: New page: Asset Save: Battery_UHD
+[2021.06.27-02.21.33:637][642]LogContentValidation: Display: Validating WidgetBlueprint /Game/BluePrint/Battery_UHD.Battery_UHD
+[2021.06.27-02.21.40:195][725]LogTemp: Repeating last play command: Selected Viewport
+[2021.06.27-02.21.40:217][725]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.06.27-02.21.40:230][725]PIE: New page: PIE session: CollectionLevel (Jun 27, 2021, 8:21:40 PM)
+[2021.06.27-02.21.40:234][725]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-02.21.40:274][725]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035955s)
+[2021.06.27-02.21.40:309][725]LogAIModule: Creating AISystem for world CollectionLevel
+[2021.06.27-02.21.40:314][725]LogPlayLevel: PIE: World Init took: (0.041275s)
+[2021.06.27-02.21.40:315][725]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/CollectionLevel.CollectionLevel to /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel (0.081738s)
+[2021.06.27-02.21.40:345][725]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2021.06.27-02.21.40:350][725]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.06.27-02.21.40:351][725]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.06.27-02.21.40:352][725]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.06.27-02.21.40:352][725]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.06.27-02.21.40:354][725]LogAudio: Display: Using built-in audio occlusion.
+[2021.06.27-02.21.40:354][725]LogAudioMixer: Display: Initializing audio mixer.
+[2021.06.27-02.21.40:360][725]LogAudioMixer: Display: 0: FrontLeft
+[2021.06.27-02.21.40:360][725]LogAudioMixer: Display: 1: FrontRight
+[2021.06.27-02.21.40:371][725]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2021.06.27-02.21.40:372][725]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.06.27-02.21.40:372][725]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.06.27-02.21.40:372][725]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.06.27-02.21.40:373][725]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.06.27-02.21.40:373][725]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.06.27-02.21.40:373][725]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.06.27-02.21.40:395][725]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.06.27-02.21.40:395][725]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.06.27-02.21.40:395][725]LogInit: FAudioDevice initialized.
+[2021.06.27-02.21.40:395][725]LogAudio: Display: Audio Device (ID: 4) registered with world 'CollectionLevel'.
+[2021.06.27-02.21.40:449][725]LogLoad: Game class is 'GameMovd_BP_C'
+[2021.06.27-02.21.40:467][725]LogWorld: Bringing World /Game/Map/UEDPIE_0_CollectionLevel.CollectionLevel up for play (max tick rate 60) at 2021.06.27-11.21.40
+[2021.06.27-02.21.40:470][725]LogWorld: Bringing up level for play took: 0.019290
+[2021.06.27-02.21.40:473][725]LogOnline: OSS: Creating online subsystem instance for: :Context_12
+[2021.06.27-02.21.40:559][725]PIE: Server logged in
+[2021.06.27-02.21.40:560][725]PIE: Play in editor total start time 0.351 seconds.
+[2021.06.27-02.21.47:694][151]LogClass: You have collected Battery_BP_C_0
+[2021.06.27-02.21.47:694][151]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-02.21.50:397][313]LogClass: You have collected Battery_BP_C_1
+[2021.06.27-02.21.50:397][313]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-02.21.55:972][647]LogClass: You have collected Battery_BP_C_2
+[2021.06.27-02.21.55:972][647]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-02.21.59:178][839]LogClass: You have collected Battery_BP_C_3
+[2021.06.27-02.21.59:178][839]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-02.22.04:128][136]LogClass: You have collected Battery_BP_C_4
+[2021.06.27-02.22.04:128][136]LogScript: Warning: FLatentActionManager::ProcessLatentActions: CallbackTarget is None.
+[2021.06.27-02.22.04:780][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-02.22.04:780][173]LogWorld: BeginTearingDown for /Game/Map/UEDPIE_0_CollectionLevel
+[2021.06.27-02.22.04:782][173]LogWorld: UWorld::CleanupWorld for CollectionLevel, bSessionEnded=true, bCleanupResources=true
+[2021.06.27-02.22.04:782][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-02.22.04:796][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.06.27-02.22.04:802][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.06.27-02.22.04:825][173]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.06.27-02.22.04:826][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-02.22.04:830][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.06.27-02.22.04:846][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.06.27-02.22.04:858][173]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2021.06.27-02.22.04:885][174]LogPlayLevel: Display: Destroying online subsystem :Context_12
