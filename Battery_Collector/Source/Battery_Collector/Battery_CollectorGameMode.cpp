@@ -4,6 +4,7 @@
 #include "Battery_CollectorCharacter.h"
 #include "UObject/ConstructorHelpers.h"
 #include "Kismet/GameplayStatics.h"
+#include <Blueprint/UserWidget.h>
 
 ABattery_CollectorGameMode::ABattery_CollectorGameMode()
 {
@@ -17,6 +18,28 @@ ABattery_CollectorGameMode::ABattery_CollectorGameMode()
 	}
 	//DecayRate 초기값 설정
 	DecayRate = 0.01f;
+}
+
+void ABattery_CollectorGameMode::BeginPlay()
+{
+	Super::BeginPlay();
+		
+	//목표 점수 설정
+	ABattery_CollectorCharacter* MyCharacter = Cast<ABattery_CollectorCharacter>(UGameplayStatics::GetPlayerPawn(this, 0));
+	if (MyCharacter)
+	{
+		//초기 파워에 1.25배를 모아야함
+		PowerToWin = (MyCharacter->GetInitialPower()) * 1.25f;
+	}
+
+	if (UHDWidgetClass != nullptr)
+	{
+		CurrentWidget = CreateWidget<UUserWidget>(GetWorld(), UHDWidgetClass);
+		if (CurrentWidget != nullptr)
+		{
+			CurrentWidget->AddToViewport();
+		}
+	}
 }
 
 void ABattery_CollectorGameMode::Tick(float DeltaTime)
@@ -34,5 +57,10 @@ void ABattery_CollectorGameMode::Tick(float DeltaTime)
 			MyCharacter->UpdatePower(-DeltaTime * DecayRate * (MyCharacter->GetInitialPower()));
 		}
 	}
+}
+
+float ABattery_CollectorGameMode::GetPowerToWin() const
+{
+	return PowerToWin;
 }
 

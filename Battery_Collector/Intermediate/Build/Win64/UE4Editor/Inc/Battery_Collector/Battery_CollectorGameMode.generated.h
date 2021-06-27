@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BATTERY_COLLECTOR_Battery_CollectorGameMode_generated_h
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_SPARSE_DATA
-#define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_RPC_WRAPPERS
-#define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetPowerToWin);
+
+
+#define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetPowerToWin);
+
+
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABattery_CollectorGameMode(); \
@@ -59,7 +67,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABattery_CollectorGameMode); \
 
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__DecayRate() { return STRUCT_OFFSET(ABattery_CollectorGameMode, DecayRate); }
+	FORCEINLINE static uint32 __PPO__DecayRate() { return STRUCT_OFFSET(ABattery_CollectorGameMode, DecayRate); } \
+	FORCEINLINE static uint32 __PPO__PowerToWin() { return STRUCT_OFFSET(ABattery_CollectorGameMode, PowerToWin); } \
+	FORCEINLINE static uint32 __PPO__UHDWidgetClass() { return STRUCT_OFFSET(ABattery_CollectorGameMode, UHDWidgetClass); } \
+	FORCEINLINE static uint32 __PPO__CurrentWidget() { return STRUCT_OFFSET(ABattery_CollectorGameMode, CurrentWidget); }
 
 
 #define Battery_Collector_Source_Battery_Collector_Battery_CollectorGameMode_h_9_PROLOG
