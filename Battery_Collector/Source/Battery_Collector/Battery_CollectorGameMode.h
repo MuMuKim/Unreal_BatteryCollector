@@ -59,6 +59,11 @@ protected:
 private:
 	//현재 플레이 상태를 추적함
 	EBatteryPlayState CurrentState;
+
+	TArray<class ASpawnVolume*> SpawnVolumeActors;
+
+	//게임플레이 상태에 영향을 주는 모든 함수의 호출 담당
+	void HandleNewState(EBatteryPlayState NewState);
 };
 
 

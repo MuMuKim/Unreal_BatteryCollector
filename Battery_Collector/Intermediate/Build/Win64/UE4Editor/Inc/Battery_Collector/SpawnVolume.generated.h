@@ -17,11 +17,13 @@ struct FVector;
 #define Battery_Collector_Source_Battery_Collector_Public_SpawnVolume_h_12_SPARSE_DATA
 #define Battery_Collector_Source_Battery_Collector_Public_SpawnVolume_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetSpawningActive); \
 	DECLARE_FUNCTION(execGetRandomPointInVolume);
 
 
 #define Battery_Collector_Source_Battery_Collector_Public_SpawnVolume_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execSetSpawningActive); \
 	DECLARE_FUNCTION(execGetRandomPointInVolume);
 
 

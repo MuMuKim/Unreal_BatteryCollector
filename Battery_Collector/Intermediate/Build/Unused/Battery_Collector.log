@@ -9,12 +9,12 @@
   
   -------------------------------------------------------------------------------
   --------------------Project: Default-------------------------------------------
-  Battery_CollectorGameMode.cpp (0:33.76 at +0:00)
-  UE4Editor-Battery_Collector-0044.lib (0:00.40 at +0:33)
-     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0044.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0044.exp 개체를 생성하고 있습니다.
-  UE4Editor-Battery_Collector-0044.dll (0:01.98 at +0:34)
-     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0044.suppressed.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector-0044.suppressed.exp 개체를 생성하고 있습니다.
-  Battery_CollectorEditor.target (0:00.26 at +0:36)
+  Battery_CollectorGameMode.cpp (0:10.81 at +0:00)
+  UE4Editor-Battery_Collector.dll (0:01.07 at +0:10)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector.suppressed.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector.suppressed.exp 개체를 생성하고 있습니다.
+  UE4Editor-Battery_Collector.lib (0:00.10 at +0:11)
+     C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector.lib 라이브러리 및 C:\Users\JIHOONKIM\Documents\unity\Unreal_BatteryCollector\Battery_Collector\Intermediate\Build\Win64\UE4Editor\Development\Battery_Collector\UE4Editor-Battery_Collector.exp 개체를 생성하고 있습니다.
+  Battery_CollectorEditor.target (0:00.42 at +0:12)
   ---------------------- Done ----------------------
   
       Rebuild All: 1 succeeded, 0 failed, 0 skipped
@@ -22,5 +22,5 @@
   1 build system warning(s):
      - License is invalid
   
-  Total time in XGE executor: 36.82 seconds
-  Total execution time: 38.12 seconds
+  Total time in XGE executor: 12.71 seconds
+  Total execution time: 13.21 seconds

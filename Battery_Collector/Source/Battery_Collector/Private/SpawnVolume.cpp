@@ -26,11 +26,7 @@ void ASpawnVolume::BeginPlay()
 {
 	Super::BeginPlay();
 	
-	//딜레이시간
-	SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
 
-	// 핸들을 가져다가, 이 클래스(나)를 위해서, SpawnPickup에 바인딩하고, SpawnDelay만큼의 시간이 흐르고 나면 호출, 반복x
-	GetWorldTimerManager().SetTimer(SpawnTimer, this, &ASpawnVolume::SpawnPickup, SpawnDelay, false);
 }
 
 // Called every frame
@@ -46,6 +42,25 @@ FVector ASpawnVolume::GetRandomPointInVolume()
 	FVector SpawnExtent = WhereToSpawn->Bounds.BoxExtent;
 
 	return UKismetMathLibrary::RandomPointInBoundingBox(SpawnOrigin, SpawnExtent);
+}
+
+void ASpawnVolume::SetSpawningActive(bool bSuouldSpawn)
+{
+	if (bSuouldSpawn)
+	{
+		//Spawn Pickup에 타이머 설정
+			//딜레이시간
+		SpawnDelay = FMath::FRandRange(SpawnDelayRangeLow, SpawnDelayRangeHigh);
+
+		// 핸들을 가져다가, 이 클래스(나)를 위해서, SpawnPickup에 바인딩하고, SpawnDelay만큼의 시간이 흐르고 나면 호출, 반복x
+		GetWorldTimerManager().SetTimer(SpawnTimer, this, &ASpawnVolume::SpawnPickup, SpawnDelay, false);
+
+	}
+	else
+	{
+		//Spawn Pickup의 타이머 초기화
+		GetWorldTimerManager().ClearTimer(SpawnTimer);
+	}
 }
 
 void ASpawnVolume::SpawnPickup()

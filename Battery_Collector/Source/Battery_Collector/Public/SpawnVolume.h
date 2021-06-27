@@ -30,6 +30,10 @@ public:
 	UFUNCTION(BlueprintPure, Category = "Spawning")
  	FVector GetRandomPointInVolume();
 
+	//Volume Spawn의 Pickup Spawn 작동하는 함수
+	UFUNCTION(BlueprintCallable, Category= "Spwaning")
+	void SetSpawningActive(bool bSuouldSpawn);
+
 protected:
 	UPROPERTY(EditAnywhere,Category = "Spawning")
 	TSubclassOf<class APickUp> WhatToSpawn;
